@@ -1,0 +1,70 @@
+.background-color-of-application{
+    background-color: rgb(249, 250, 251);
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.landing-page-image{
+    height: 90%;
+    width: 100%;
+    clip-path: polygon(18% 0,100% 0,80% 100%,0 100%);
+}
+
+.aversa-herbals-head-tag{
+    /* color: #1c324a; */
+    color: green;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.aversa-herbals-para-tag-one{
+    color: #1c324a;
+    text-align: justify;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 1.2rem;
+}
+
+.aversa-herbals-head-tag-two{
+    color: #1c324a;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+
+}
+.aversa-herbals-para-tag-two{
+    color: #1c324a;
+    padding-left: 30px;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 1.2rem;
+}
+
+.see-all-buttone{
+    background-color: white;
+    color: #1c324a;
+    border: 1px solid #1c324a;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.AVersa-more-info-card{
+    width: 100%;
+    height: 100%;
+}
+
+.aversa-herbals-para-tag-three{
+    color: #9ca3af;
+    font-family: Papyrus;
+    font-size: 2.25rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.happy-guy-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 #000, 0 0 #000, 0 1px 26px 0 #000000;
+
+}

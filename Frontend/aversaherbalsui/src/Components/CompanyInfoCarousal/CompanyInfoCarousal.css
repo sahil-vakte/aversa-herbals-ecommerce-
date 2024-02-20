@@ -1,0 +1,33 @@
+.company-info-carousal-images{
+    height: 80%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.custom-card-classname{
+    margin-top: 180px;
+    margin-left: -95px;
+}
+
+.button-of-carousal-flex{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    margin-top: -40px;
+}
+
+  
+  
+
+@media(max-width:768px){
+    .custom-card-classname{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .button-of-carousal-flex{
+        display: flex;
+        gap: 20px;
+        justify-content: end;
+        margin-top: 0px;
+    }
+}

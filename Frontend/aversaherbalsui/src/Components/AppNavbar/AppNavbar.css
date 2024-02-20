@@ -1,0 +1,28 @@
+.nav-bar-icons{
+    height: 30px;
+    width: 35px;
+    color: #1c324a;
+}
+
+.fixed-navbar-classname{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    /* border-bottom: 1px solid; */
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 2px 0 #0000000d;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand {
+    color: black !important; /* Set the brand name color to black */
+  }
+.navbar-brand,
+.navbar-nav .nav-link {
+  /* color: gray !important;  */
+  font-weight: normal; /* Set the default font weight */
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: 700; /* Set the font weight for the active tab */
+  color: green !important;
+}
