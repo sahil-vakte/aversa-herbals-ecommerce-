@@ -16,8 +16,10 @@ app.use('/user', userRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/cart', cartRoutes)
 
+// const PORT = process.env.PORT || 3000;
 const PORT = process.env.PORT || 3000;
+const IP_ADDRESS = process.env.IP_ADDRESS || '0.0.0.0'
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port ${PORT} & ${IP_ADDRESS}`);
 });
