@@ -16,7 +16,7 @@ app.use('/user', userRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/cart', cartRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 const IP_ADDRESS = process.env.IP_ADDRESS || '0.0.0.0';
 
 app.listen(PORT, IP_ADDRESS, () => {
