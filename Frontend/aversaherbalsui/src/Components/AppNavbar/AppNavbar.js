@@ -5,13 +5,16 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { BsCart4 } from "react-icons/bs";
 import { RiUserFill } from "react-icons/ri";
+import Aversalogo from "../../Assets/aversalogo.jpg"
 
 function AppNavbar() {
   return (
     <div className="fixed-navbar-classname">
-    <Navbar collapseOnSelect expand="lg" >
-      <Container>
-        <Navbar.Brand href="" style={{color:"black"}}>Aversa Herbals</Navbar.Brand>
+    <Navbar collapseOnSelect expand="lg" style={{paddingLeft:"20px",paddingRight:"20px"}}>
+      {/* <Container> */}
+        {/* <Navbar.Brand href="" > */}
+          <img src={Aversalogo} alt="" style={{height:"60px",width:"250px"}}/>
+        {/* </Navbar.Brand> */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -30,7 +33,7 @@ function AppNavbar() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      {/* </Container> */}
     </Navbar>
     </div>
   );
