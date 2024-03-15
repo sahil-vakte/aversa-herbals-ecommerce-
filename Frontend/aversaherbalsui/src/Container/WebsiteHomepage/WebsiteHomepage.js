@@ -1,11 +1,13 @@
 import React from "react";
 import "./WebsiteHomepage.css";
 import { Container, Col, Row, Card } from "react-bootstrap";
-import landingImage from "../../Assets/herbalmarketinproduct.jpg";
+import landingImage from "../../Assets/hero1.png";
 import happyguyimage from "../../Assets/joinbusiness.jpg";
 import ProductsCarousal from "../../Components/ProductsCarousal/ProductsCarousal";
 import { FiArrowRightCircle } from "react-icons/fi";
 import CompanyInfoCarousal from "../../Components/CompanyInfoCarousal/CompanyInfoCarousal";
+import Button from "react-bootstrap/Button";
+import card1Img from "../../Assets/card1.png";
 
 const WebsiteHomepage = () => {
   return (
@@ -14,26 +16,68 @@ const WebsiteHomepage = () => {
         <div>
           <Row className="align-items-center">
             <Col sm={6}>
-              <h1 className="aversa-herbals-head-tag">
-                Welcome to Aversa Herbals: Where Nature Meets Wellness
-              </h1>
-              <p className="aversa-herbals-para-tag-one">
-                Discover a world of well-being at Aversa Herbals, your trusted
-                destination for premium herbal products. Immerse yourself in the
-                healing power of nature and embark on a journey towards a
-                healthier, more natural lifestyle.
-                <br />
-                At Aversa Herbals, we are passionate about bringing you the
-                purest herbal remedies that Mother Nature has to offer. Our
-                products are meticulously crafted to elevate your well-being,
-                providing a harmonious blend of traditional wisdom and modern
-                science.
-              </p>
+              <div className="herbals-head-tag">OUR SPECIALITY</div>
+              <div className="aversa-herbals-para-tag-one">
+                <div>GREEK</div> <div>MOUNTAIN TEA</div>
+              </div>
+              <div className="pricing-off-gift-cards-hero">
+                Enjoy 20% OFF gift cards<br></br> no code needed
+              </div>
+              <div>
+                <Button variant="success" className="hero-button">
+                  Shop out teas >{" "}
+                </Button>
+              </div>
             </Col>
+
             <Col sm={6}>
               <img alt="" src={landingImage} className="landing-page-image" />
             </Col>
           </Row>
+        </div>
+
+        {/* Below div is for the cards below hero image */}
+        <div className="card-container">
+          <Card className="cardd">
+            <Card.Body>
+              <Card.Title>CAFFEINE FREE</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                Herbal Teas
+              </Card.Subtitle>
+
+              <Card.Link href="#">Shop Now</Card.Link>
+            </Card.Body>
+          </Card>
+          <Card className="cardd">
+            <Card.Body>
+              <Card.Title>METABOLIC BOOSTER</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                Oolong Teas
+              </Card.Subtitle>
+
+              <Card.Link href="#">Shop Now</Card.Link>
+            </Card.Body>
+          </Card>
+          <Card className="cardd">
+            <Card.Body>
+              <Card.Title>MALABAR COAST</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                Masala Chai
+              </Card.Subtitle>
+
+              <Card.Link href="#">Shop Now</Card.Link>
+            </Card.Body>
+          </Card>
+          <Card className="cardd">
+            <Card.Body>
+              <Card.Title>ANTIOXIDANT RICH</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                Grean Teas
+              </Card.Subtitle>
+
+              <Card.Link href="#">Shop Now</Card.Link>
+            </Card.Body>
+          </Card>
         </div>
 
         {/* <div className="mt-5">
@@ -48,7 +92,7 @@ const WebsiteHomepage = () => {
             Why Choose Aversa Herbals?
           </h1>
           <div className="mt-5">
-          <CompanyInfoCarousal/>
+            <CompanyInfoCarousal />
           </div>
 
           <Card className="mt-3">
@@ -275,8 +319,8 @@ const WebsiteHomepage = () => {
               <img alt="" src={happyguyimage} className="happy-guy-image" />
             </Col>
             <Col sm={6}>
-              <Card >
-                <Card.Body style={{height:"100%"}}>
+              <Card>
+                <Card.Body style={{ height: "100%" }}>
                   <p className="aversa-herbals-para-tag-one">
                     There are a lot of reasons to become a Aversa Herbal
                     Independent Associate. Maybe you want a part-time business
@@ -300,19 +344,27 @@ const WebsiteHomepage = () => {
                     creativity knows no bounds. Let your goals become your
                     reality.
                   </p>
-                  <br/>
-                  <p className="aversa-herbals-para-tag-three" style={{textAlign:"left",color:"#1c324a",fontSize:"1.5rem"}}>
-                  Ready to transform lives and your future? Join the Aversa Herbal Network today! 🌿✨
+                  <br />
+                  <p
+                    className="aversa-herbals-para-tag-three"
+                    style={{
+                      textAlign: "left",
+                      color: "#1c324a",
+                      fontSize: "1.5rem",
+                    }}
+                  >
+                    Ready to transform lives and your future? Join the Aversa
+                    Herbal Network today! 🌿✨
                   </p>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
           <div style={{ textAlign: "right" }} className="mt-3">
-        <button className="see-all-buttone">
-          <FiArrowRightCircle /> Join Now
-        </button>
-      </div>
+            <button className="see-all-buttone">
+              <FiArrowRightCircle /> Join Now
+            </button>
+          </div>
         </div>
       </Container>
     </div>
