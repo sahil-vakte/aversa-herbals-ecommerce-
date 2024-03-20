@@ -8,6 +8,14 @@ import { FiArrowRightCircle } from "react-icons/fi";
 import CompanyInfoCarousal from "../../Components/CompanyInfoCarousal/CompanyInfoCarousal";
 import Button from "react-bootstrap/Button";
 import card1Img from "../../Assets/card1.png";
+import {
+  MDBFooter,
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBIcon,
+} from "mdb-react-ui-kit";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const WebsiteHomepage = () => {
   return (
@@ -35,7 +43,6 @@ const WebsiteHomepage = () => {
             </Col>
           </Row>
         </div>
-
         {/* Below div is for the cards below hero image */}
         <div className="card-container">
           <Card className="cardd">
@@ -79,77 +86,51 @@ const WebsiteHomepage = () => {
             </Card.Body>
           </Card>
         </div>
-
+        <div className="card2-container">
+          <div className="card2">
+            <div className="herbals-head-tag">SINCE 1983</div>
+            <div className="common-heding-green-tag">Heritage & Tradition</div>
+            <div className="para-card2">
+              Established in 1983, our Tea has been sourcing, manufacturing and
+              distributing quality and affordable tea.
+            </div>
+            <div style={{ fontWeight: "bold" }}>Our Story > </div>
+          </div>
+          <div className="card2">
+            <div className="herbals-head-tag">SINCE 1983</div>
+            <div className="common-heding-green-tag">Heritage & Tradition</div>
+            <div className="para-card2">
+              Established in 1983, our Tea has been sourcing, manufacturing and
+              distributing quality and affordable tea.
+            </div>
+            <div style={{ fontWeight: "bold" }}>Our Story > </div>
+          </div>
+          <div className="card2">
+            <div className="herbals-head-tag">SINCE 1983</div>
+            <div className="common-heding-green-tag">Heritage & Tradition</div>
+            <div className="para-card2">
+              Established in 1983, our Tea has been sourcing, manufacturing and
+              distributing quality and affordable tea.
+            </div>
+            <div style={{ fontWeight: "bold" }}>Our Story > </div>
+          </div>
+        </div>
+        <div className="middle-section-after-cards">
+          <div className="featured-product">Featured Products</div>
+          <div className="featured-product-para">
+            Our range of gift boxes are elegantly packed, gorgeous to look at,
+            and packed with the freshest indian teas.
+          </div>
+        </div>
+        -------------------------------------------------------------
         {/* <div className="mt-5">
             <CompanyInfoCarousal/>
         </div> */}
-
         <div className="mt-5">
-          <h1
-            className="aversa-herbals-head-tag"
-            style={{ textAlign: "center" }}
-          >
-            Why Choose Aversa Herbals?
-          </h1>
-          <div className="mt-5">
-            <CompanyInfoCarousal />
-          </div>
-
-          <Card className="mt-3">
-            <Card.Body>
-              <div>
-                <h1 className="aversa-herbals-head-tag-two">
-                  🌿 Natural Wellness :
-                </h1>
-                <p className="aversa-herbals-para-tag-two">
-                  Elevate your health with our thoughtfully curated herbal
-                  products, carefully formulated for a holistic approach to
-                  well-being.
-                </p>
-              </div>
-              <div>
-                <h1 className="aversa-herbals-head-tag-two">
-                  🌱 Premium Quality :
-                </h1>
-                <p className="aversa-herbals-para-tag-two">
-                  Experience the purity of nature with our products, each held
-                  to the highest standards of quality and authenticity.
-                </p>
-              </div>
-              <div>
-                <h1 className="aversa-herbals-head-tag-two">
-                  🌏 Sustainable Living :
-                </h1>
-                <p className="aversa-herbals-para-tag-two">
-                  Aversa Herbals is committed to sustainability. Our
-                  eco-friendly practices ensure that you contribute to a
-                  healthier planet while nurturing your own health.
-                </p>
-              </div>
-            </Card.Body>
-          </Card>
-        </div>
-
-        <div className="mt-5">
-          <h1
-            className="aversa-herbals-head-tag"
-            style={{ textAlign: "center" }}
-          >
-            Explore Our Products
-          </h1>
-          <p
-            className="aversa-herbals-para-tag-two"
-            style={{ textAlign: "center", margin: "0" }}
-          >
-            Dive into a world of herbal wonders. From soothing teas to
-            revitalizing supplements, our collection is designed to cater to
-            your unique wellness needs.
-          </p>
           <div>
             <ProductsCarousal />
           </div>
         </div>
-
         <div className="mt-5">
           <h1
             className="aversa-herbals-head-tag"
@@ -306,7 +287,6 @@ const WebsiteHomepage = () => {
             </Col>
           </Row>
         </div>
-
         <div className="mt-5">
           <h1
             className="aversa-herbals-head-tag"
@@ -314,7 +294,7 @@ const WebsiteHomepage = () => {
           >
             Aversa Herbal Network - Your Gateway to Wellness and Wealth
           </h1>
-          <Row className="align-items-center mt-5">
+          {/* <Row className="align-items-center mt-5">
             <Col sm={6}>
               <img alt="" src={happyguyimage} className="happy-guy-image" />
             </Col>
@@ -359,12 +339,141 @@ const WebsiteHomepage = () => {
                 </Card.Body>
               </Card>
             </Col>
-          </Row>
+          </Row> */}
           <div style={{ textAlign: "right" }} className="mt-3">
             <button className="see-all-buttone">
               <FiArrowRightCircle /> Join Now
             </button>
           </div>
+        </div>
+        <div className="footer-container">
+          <MDBFooter
+            bgColor="light"
+            className="text-center text-lg-start text-muted"
+          >
+            <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+              <div className="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+              </div>
+
+              <div>
+                <a href="" className="me-4 text-reset">
+                  <MDBIcon fab icon="facebook-f" />
+                </a>
+                <a href="" className="me-4 text-reset">
+                  <MDBIcon fab icon="twitter" />
+                </a>
+                <a href="" className="me-4 text-reset">
+                  <MDBIcon fab icon="google" />
+                </a>
+                <a href="" className="me-4 text-reset">
+                  <MDBIcon fab icon="instagram" />
+                </a>
+                <a href="" className="me-4 text-reset">
+                  <MDBIcon fab icon="linkedin" />
+                </a>
+                <a href="" className="me-4 text-reset">
+                  <MDBIcon fab icon="github" />
+                </a>
+              </div>
+            </section>
+
+            <section className="">
+              <MDBContainer className="text-center text-md-start mt-5">
+                <MDBRow className="mt-3">
+                  <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
+                    <h6 className="text-uppercase fw-bold mb-4">
+                      <MDBIcon icon="gem" className="me-3" />
+                      Company name
+                    </h6>
+                    <p>
+                      Here you can use rows and columns to organize your footer
+                      content. Lorem ipsum dolor sit amet, consectetur
+                      adipisicing elit.
+                    </p>
+                  </MDBCol>
+
+                  <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
+                    <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+                    <p>
+                      <a href="#!" className="text-reset">
+                        Angular
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" className="text-reset">
+                        React
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" className="text-reset">
+                        Vue
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" className="text-reset">
+                        Laravel
+                      </a>
+                    </p>
+                  </MDBCol>
+
+                  <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
+                    <h6 className="text-uppercase fw-bold mb-4">
+                      Useful links
+                    </h6>
+                    <p>
+                      <a href="#!" className="text-reset">
+                        Pricing
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" className="text-reset">
+                        Settings
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" className="text-reset">
+                        Orders
+                      </a>
+                    </p>
+                    <p>
+                      <a href="#!" className="text-reset">
+                        Help
+                      </a>
+                    </p>
+                  </MDBCol>
+
+                  <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
+                    <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p>
+                      <MDBIcon icon="home" className="me-2" />
+                      New York, NY 10012, US
+                    </p>
+                    <p>
+                      <MDBIcon icon="envelope" className="me-3" />
+                      info@example.com
+                    </p>
+                    <p>
+                      <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                    </p>
+                    <p>
+                      <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                    </p>
+                  </MDBCol>
+                </MDBRow>
+              </MDBContainer>
+            </section>
+
+            <div
+              className="text-center p-4"
+              style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
+            >
+              © 2021 Copyright:
+              <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
+                MDBootstrap.com
+              </a>
+            </div>
+          </MDBFooter>
         </div>
       </Container>
     </div>

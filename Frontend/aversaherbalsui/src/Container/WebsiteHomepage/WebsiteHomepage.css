@@ -5,6 +5,12 @@
     overflow-x: hidden;
 }
 
+.common-heding-green-tag{
+    color: #023020;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .landing-page-image{
     height: 90%;
     width: 100%;
@@ -93,8 +99,10 @@
     justify-content: space-around;
     padding-top: 20px;
     height: 450px;
-    padding: 50px;
+    padding: 30px;
     margin: 10px;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .cardd{
@@ -104,7 +112,7 @@
     overflow: hidden;
     flex-wrap: wrap;
     margin: 15px;
-    background-image: url('../../Assets/card1.png');
+    background-image: url('../../Assets/card2.png');
     color: #8CBC4F;
     font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
     font-size: 1rem;
@@ -115,4 +123,66 @@
 
 .cardd:hover{
     transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card2-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    height: 450px;
+    padding: 100px;
+    margin: 10px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.card2{
+    height: 315.4px;
+    width: 369.34px;
+    flex-wrap: wrap;
+    margin: 15px;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 1rem;
+    line-height: 2;
+    padding: 9px;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.para-card2{
+    color: #194A33;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    padding: 9px;
+}
+
+.middle-section-after-cards{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.featured-product{
+    height: 54px;
+    width: 1148px ;
+    font-size: 50px;
+    font-weight: bold;
+    color: #194A33;
+    flex-wrap: wrap;
+    
+}
+
+.featured-product-para{
+    color: #b7c48b;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: 9px;
+    text-align: center;
 }
