@@ -42,21 +42,24 @@
     padding-left: 9px;
 }
 
-
-
-.aversa-herbals-head-tag-two{
-    color: #1c324a;
+.mb-2{
+    color: #194A33;
     font-size: 1.5rem;
     font-weight: 700;
     font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
 
 }
-.aversa-herbals-para-tag-two{
-    color: #1c324a;
-    padding-left: 30px;
+
+
+
+.aversa-herbals-head-tag-two{
+    color: #194A33;
+    font-size: 1.5rem;
+    font-weight: 700;
     font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
-    font-size: 1.2rem;
+
 }
+
 
 .hero-button{
     color: #8CBC4F;
@@ -66,10 +69,11 @@
 
 .see-all-buttone{
     background-color: white;
-    /* color: #1c4a24; */
+    color: #194A33;
     border: 1px solid #1c324a;
     padding: 5px;
     border-radius: 10px;
+    border-color: #194A33;
     font-size: 1.2rem;
 }
 
@@ -120,6 +124,7 @@
     padding: 9px;
     transition: transform 0.2s ease-in-out;
 }
+
 
 .cardd:hover{
     transform: scale(1.1);
@@ -185,4 +190,25 @@
     line-height: 1;
     padding: 9px;
     text-align: center;
+}
+
+herbals-head-tag-h4{
+    text-align: center;
+    color: #8CBC4F;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 9px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.mt-5 h4{
+    text-align: center;
+    color: #8CBC4F;
+}
+
+.mt-5 p{
+    text-align: center;
+    color: #194A33;
 }

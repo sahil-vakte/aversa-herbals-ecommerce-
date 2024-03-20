@@ -122,7 +122,7 @@ const WebsiteHomepage = () => {
             and packed with the freshest indian teas.
           </div>
         </div>
-        -------------------------------------------------------------
+
         {/* <div className="mt-5">
             <CompanyInfoCarousal/>
         </div> */}
@@ -132,11 +132,12 @@ const WebsiteHomepage = () => {
           </div>
         </div>
         <div className="mt-5">
+          <h4>Why Choose our Teas</h4>
           <h1
             className="aversa-herbals-head-tag"
             style={{ textAlign: "center" }}
           >
-            Unlock the Secrets of Herbal Living with Aversa Herbals
+            Aversa Herbal Network - Your Gateway to Wellness and Wealth
           </h1>
           <p
             className="aversa-herbals-para-tag-two"
@@ -147,7 +148,7 @@ const WebsiteHomepage = () => {
             collection of herbal products is more than just a range; it's a
             journey into the heart of nature's healing power.
           </p>
-          <Row>
+          {/* <Row>
             <Col sm={4} className="mt-5">
               <Card style={{ height: "100%" }}>
                 <Card.Body style={{ height: "100%" }}>
@@ -285,15 +286,9 @@ const WebsiteHomepage = () => {
                 </Card.Body>
               </Card>
             </Col>
-          </Row>
+          </Row> */}
         </div>
         <div className="mt-5">
-          <h1
-            className="aversa-herbals-head-tag"
-            style={{ textAlign: "center" }}
-          >
-            Aversa Herbal Network - Your Gateway to Wellness and Wealth
-          </h1>
           {/* <Row className="align-items-center mt-5">
             <Col sm={6}>
               <img alt="" src={happyguyimage} className="happy-guy-image" />
