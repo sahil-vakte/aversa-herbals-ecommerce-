@@ -20,9 +20,9 @@ function AppNavbar() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#Products">Products</Nav.Link>
-            <Nav.Link href="#wellness">Wellness Resources</Nav.Link>
-            <Nav.Link href="#businee">Business Opportunity</Nav.Link>
-            <Nav.Link href="#about">About Aversa Herbals</Nav.Link>
+            <Nav.Link href="#wellness">Wellness Resources</Nav.Link>            
+            <Nav.Link href="/about">About Aversa Herbals</Nav.Link>
+            <Nav.Link href="/Contact">Contact US</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#deets">
