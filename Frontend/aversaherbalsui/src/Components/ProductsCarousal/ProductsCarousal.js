@@ -18,7 +18,7 @@ const ProductsCarousal = () => {
     <div>
       <Row>
         {products &&
-          products.slice(0, 9).map((product) => (
+          products.slice(0).map((product) => (
             <Col sm={4} className="mt-5">
               <Card>
                 <Card.Img

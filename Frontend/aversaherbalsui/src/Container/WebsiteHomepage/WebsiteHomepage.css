@@ -32,6 +32,7 @@
     font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
     font-size: 3rem;
     padding: 9px;
+    
 }
 
 .pricing-off-gift-cards-hero{
@@ -212,3 +213,151 @@ herbals-head-tag-h4{
     text-align: center;
     color: #194A33;
 }
+
+.img-info{
+    
+    height: 90%;
+    width: 100%;
+}
+
+.align-items-center{
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.landing-page-image1{
+    height: 90%;
+    width: 100%;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 19% 100%);
+}
+
+.aversa-herbals-para-tag-four{
+    color: #000000;
+    text-align: justify;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 3rem;
+    padding: 9px;
+    text-align: center;
+    /* clip-path: polygon(0 0, 75% 0, 100% 100%, 29% 100%); */
+}
+
+
+/* Media queries */
+@media screen and (max-width: 575px) {
+
+    .background-color-of-application{
+        display: block;
+        justify-content: space-between;
+    }
+    
+    
+   .card-container{
+    display: block;
+    justify-content: space-around;
+    padding-top: 20px;
+    /* width: 90%; */
+    height: 600px;
+    padding: 30px;
+   padding-bottom: 0px;
+    width: auto;
+    margin: 10px 10px 0px 10px;
+    
+   }
+
+   .cardd{
+    width: 100%;
+    height: 700px;
+    z-index: 1;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin: 15px;
+    background-image: url('../../Assets/card2.png');
+    color: #8CBC4F;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 9px;
+    transition: transform 0.1s ease-in-out;
+   }
+
+  
+
+
+   .card2-container{
+    display: block;
+    justify-content: space-between;
+   
+    height: 450px;
+    padding: 20px;
+    margin: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 20px;
+   }
+   .card2{
+    height: 200px;
+    width: 369.34px;
+    
+    margin: 15px;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 9px;
+    transition: transform 0.2s ease-in-out;
+    border: 1px solid #ccc; /* Sets a solid border with a color of #ccc */
+    border-radius: 8px; /* Optional: Adds rounded corners to the border */
+    padding: 20px;
+    
+}
+
+.middle-section-after-cards{
+    align-items: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+    width: 95%;
+    padding: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 30px;
+    padding-top: 200px;
+}
+
+.featured-product{
+    
+    /* text-align: left;
+    height: 54px;
+    width: 1148px ;
+    font-size: 30px;
+    font-weight: bold;
+    color: #194A33;
+    padding-left: 20px;
+     */
+     
+        text-align: center; /* Center the text on smaller screens */
+        height: auto; /* Adjust height automatically based on content */
+        max-width: 90%; /* Limit maximum width to 90% of the viewport */
+        font-size: 28px; /* Use viewport width for font size, adjusting responsively */
+        font-weight: bold;
+        color: #194A33;
+        padding: 50 20px; /* Add padding to the left and right */
+        margin: 0 auto; /* Center horizontally */
+    
+}
+
+.featured-product-para{
+    color: #b7c48b;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: 9px;
+    text-align: center;
+}
+
+
+}
+
+
+
+/*-----------------------------------------------------------------------------*/
+

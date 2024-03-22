@@ -1,0 +1,204 @@
+.background-color-of-application {
+  background-color: rgb(249, 250, 251);
+  padding-top: 80px;
+  padding-bottom: 20px;
+  overflow-x: hidden;
+}
+
+.common-heding-green-tag {
+  color: #023020;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.landing-page-image {
+  height: auto;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 80%);
+}
+
+.herbals-head-tag {
+  color: #8CBC4F;
+  font-family: Prata, serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  padding: 9px;
+}
+
+.aversa-herbals-para-tag-one {
+  color: #000000;
+  text-align: justify;
+  font-family: Prata, serif;
+  font-size: 2rem;
+  padding: 9px;
+}
+
+.pricing-off-gift-cards-hero {
+  color: #000000;
+  font-family: Prata, serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding-left: 9px;
+}
+
+.mb-2 {
+  color: #194A33;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: Prata, serif;
+}
+
+.aversa-herbals-head-tag-two {
+  color: #194A33;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: Prata, serif;
+}
+
+.hero-button {
+  color: #8CBC4F;
+  background-color: #8CBC4F;
+}
+
+.see-all-buttone {
+  background-color: white;
+  color: #194A33;
+  border: 1px solid #1c324a;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.AVersa-more-info-card {
+  width: 100%;
+  height: auto;
+}
+
+.aversa-herbals-para-tag-three {
+  color: #9ca3af;
+  font-family: Papyrus;
+  font-size: 2.25rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.happy-guy-image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 #000, 0 0 #000, 0 1px 26px 0 #000000;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding: 10px;
+}
+
+.cardd {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  background-image: url('../../Assets/card2.png');
+  color: #8CBC4F;
+  font-family: Prata, serif;
+  font-size: 1rem;
+  padding: 9px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.cardd:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card2-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding: 10px;
+}
+
+.card2 {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  background-image: url('../../Assets/card2.png');
+  color: #8CBC4F;
+  font-family: Prata, serif;
+  font-size: 1rem;
+  padding: 9px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card2:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.middle-section-after-cards {
+  text-align: center;
+  padding: 20px;
+}
+
+.featured-product {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #194A33;
+  margin-bottom: 10px;
+}
+
+.featured-product-para {
+  color: #b7c48b;
+  font-family: Prata, serif;
+  font-size: 1.4rem;
+  padding: 9px;
+  text-align: center;
+}
+
+.herbal-head-tag-h4 {
+  text-align: center;
+  color: #8CBC4F;
+  font-family: Prata, serif;
+  font-size: 1rem;
+  padding: 9px;
+}
+
+.mt-5 h4 {
+  text-align: center;
+  color: #8CBC4F;
+}
+
+.mt-5 p {
+  text-align: center;
+  color: #194A33;
+}
+
+.img-info {
+  width: 100%;
+  height: auto;
+}
+
+.align-items-center {
+  align-items: center;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.landing-page-image1 {
+  height: auto;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 20%);
+}
+
+.aversa-herbals-para-tag-four {
+  color: #000000;
+  text-align: justify;
+  font-family: Prata, serif;
+  font-size: 2rem;
+  padding: 9px;
+  text-align: center;
+}
