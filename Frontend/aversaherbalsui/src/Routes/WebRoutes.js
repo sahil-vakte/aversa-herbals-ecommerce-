@@ -11,7 +11,7 @@ const WebRoutes = () => {
     <div>
         <AppNavbar/>
         <Routes>
-        <Route path="/*" element=<WebsiteHomepageNew /> />
+        <Route path="/*" element=<WebsiteHomepage /> />
         <Route path="/about" element=<About /> />
         <Route path="/contact" element=<Contact /> />
         {/* <Route path="/*" element=<WebsiteHomepage /> /> */}

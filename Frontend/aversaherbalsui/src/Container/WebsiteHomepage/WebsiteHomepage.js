@@ -51,8 +51,8 @@ const WebsiteHomepage = () => {
           <CompanyInfoCarousal/>
           </div>
 
-          <Card className="mt-3">
-            <Card.Body>
+          <Card className="mt-3" style={{width:"100%"}}>
+            <Card.Body style={{width:"100%"}}>
               <div>
                 <h1 className="aversa-herbals-head-tag-two">
                   🌿 Natural Wellness :
@@ -124,8 +124,8 @@ const WebsiteHomepage = () => {
           </p>
           <Row>
             <Col sm={4} className="mt-5">
-              <Card style={{ height: "100%" }}>
-                <Card.Body style={{ height: "100%" }}>
+              <Card style={{ height: "100%",width:"100%" }}>
+                <Card.Body style={{ height: "100%",width:"100%" }}>
                   <div>
                     <h1 className="aversa-info-text-logo">🌿</h1>
                     <h1 className="aversa-herbals-head-tag-two">
@@ -147,8 +147,8 @@ const WebsiteHomepage = () => {
               </Card>
             </Col>
             <Col sm={4} className="mt-5">
-              <Card style={{ height: "100%" }}>
-                <Card.Body style={{ height: "100%" }}>
+              <Card style={{ height: "100%",width:"100%" }}>
+                <Card.Body style={{ height: "100%" ,width:"100%"}}>
                   <div>
                     <h1 className="aversa-info-text-logo">🌺</h1>
                     <h1 className="aversa-herbals-head-tag-two">
@@ -170,8 +170,8 @@ const WebsiteHomepage = () => {
               </Card>
             </Col>
             <Col sm={4} className="mt-5">
-              <Card style={{ height: "100%" }}>
-                <Card.Body style={{ height: "100%" }}>
+              <Card style={{ height: "100%",width:"100%" }}>
+                <Card.Body style={{ height: "100%",width:"100%" }}>
                   <div>
                     <h1 className="aversa-info-text-logo">🌼</h1>
                     <h1 className="aversa-herbals-head-tag-two">
@@ -194,8 +194,8 @@ const WebsiteHomepage = () => {
               </Card>
             </Col>
             <Col sm={4} className="mt-5">
-              <Card style={{ height: "100%" }}>
-                <Card.Body style={{ height: "100%" }}>
+              <Card style={{ height: "100%",width:"100%" }}>
+                <Card.Body style={{ height: "100%",width:"100%" }}>
                   <div>
                     <h1 className="aversa-info-text-logo">🍃</h1>
                     <h1 className="aversa-herbals-head-tag-two">
@@ -217,8 +217,8 @@ const WebsiteHomepage = () => {
               </Card>
             </Col>
             <Col sm={4} className="mt-5">
-              <Card style={{ height: "100%" }}>
-                <Card.Body style={{ height: "100%" }}>
+              <Card style={{ height: "100%" ,width:"100%"}}>
+                <Card.Body style={{ height: "100%",width:"100%" }}>
                   <div>
                     <h1 className="aversa-info-text-logo">📚</h1>
                     <h1 className="aversa-herbals-head-tag-two">
@@ -239,8 +239,8 @@ const WebsiteHomepage = () => {
               </Card>
             </Col>
             <Col sm={4} className="mt-5">
-              <Card style={{ height: "100%" }}>
-                <Card.Body style={{ height: "100%" }}>
+              <Card style={{ height: "100%",width:"100%" }}>
+                <Card.Body style={{ height: "100%",width:"100%" }}>
                   <div>
                     <h1 className="aversa-info-text-logo">🌱</h1>
                     <h1 className="aversa-herbals-head-tag-two">
@@ -275,8 +275,8 @@ const WebsiteHomepage = () => {
               <img alt="" src={happyguyimage} className="happy-guy-image" />
             </Col>
             <Col sm={6}>
-              <Card >
-                <Card.Body style={{height:"100%"}}>
+              <Card style={{width:"100%"}}>
+                <Card.Body style={{height:"100%",width:"100%"}}>
                   <p className="aversa-herbals-para-tag-one">
                     There are a lot of reasons to become a Aversa Herbal
                     Independent Associate. Maybe you want a part-time business

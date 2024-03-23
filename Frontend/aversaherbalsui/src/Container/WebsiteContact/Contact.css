@@ -24,7 +24,7 @@
   
   label {
     position: relative;
-    color: #4CAF50;
+    color: white;
     font-weight: bolder;
   }
   form {
@@ -69,7 +69,7 @@
   .contactusbt{
     font-weight: bolder;
     position: relative;
-    color: #45a049;
+    color: white;
     margin-right: 50px;
     font-style: italic;
   }

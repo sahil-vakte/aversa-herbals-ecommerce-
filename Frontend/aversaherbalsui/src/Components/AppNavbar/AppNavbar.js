@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { BsCart4 } from "react-icons/bs";
 import { RiUserFill } from "react-icons/ri";
 import Aversalogo from "../../Assets/aversalogo.jpg"
+import { Link } from "react-router-dom";
 
 function AppNavbar() {
   return (
@@ -18,11 +19,15 @@ function AppNavbar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Link className="nav-link" to="/">Home</Link>
             <Nav.Link href="#Products">Products</Nav.Link>
             <Nav.Link href="#wellness">Wellness Resources</Nav.Link>            
-            <Nav.Link href="/about">About Aversa Herbals</Nav.Link>
-            <Nav.Link href="/Contact">Contact US</Nav.Link>
+            <Link to="/about" className="nav-link">
+            About Aversa Herbals
+            </Link>
+            <Link to="/contact" className="nav-link">
+            Contact US
+            </Link>
           </Nav>
           <Nav>
             <Nav.Link href="#deets">
