@@ -64,3 +64,8 @@
     padding-left: 50px;
     padding-right: 50px;
   }
+
+  .crousel-container{
+    height: 500px;
+    flex-wrap: wrap;
+  }

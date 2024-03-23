@@ -3,6 +3,7 @@ import "./ProductPage.css";
 
 import Footer from "../Footer/Footer";
 import TempProducts from "../ProductsCrouselTemp/TempProducts";
+import UncontrolledExample from "../Crousels/UncontrolledExample";
 
 const ProductPage = () => {
   return (
@@ -22,6 +23,7 @@ const ProductPage = () => {
             in a variety of package types. We hope our teas provide you with
             some well-deserved comfort during your day.
           </p>
+
           <div className="products-crousel">
             <TempProducts />
           </div>

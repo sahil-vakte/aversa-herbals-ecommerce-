@@ -133,6 +133,69 @@ const WebsiteHomepage = () => {
             <CompanyInfoCarousal/>
         </div> */}
         <div className="mt-5">
+<<<<<<< HEAD
+=======
+          <h1
+            className="aversa-herbals-head-tag"
+            style={{ textAlign: "center" }}
+          >
+            Why Choose Aversa Herbals?
+          </h1>
+          <div className="mt-5">
+          <CompanyInfoCarousal/>
+          </div>
+
+          <Card className="mt-3" style={{width:"100%"}}>
+            <Card.Body style={{width:"100%"}}>
+              <div>
+                <h1 className="aversa-herbals-head-tag-two">
+                  🌿 Natural Wellness :
+                </h1>
+                <p className="aversa-herbals-para-tag-two">
+                  Elevate your health with our thoughtfully curated herbal
+                  products, carefully formulated for a holistic approach to
+                  well-being.
+                </p>
+              </div>
+              <div>
+                <h1 className="aversa-herbals-head-tag-two">
+                  🌱 Premium Quality :
+                </h1>
+                <p className="aversa-herbals-para-tag-two">
+                  Experience the purity of nature with our products, each held
+                  to the highest standards of quality and authenticity.
+                </p>
+              </div>
+              <div>
+                <h1 className="aversa-herbals-head-tag-two">
+                  🌏 Sustainable Living :
+                </h1>
+                <p className="aversa-herbals-para-tag-two">
+                  Aversa Herbals is committed to sustainability. Our
+                  eco-friendly practices ensure that you contribute to a
+                  healthier planet while nurturing your own health.
+                </p>
+              </div>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className="mt-5">
+          <h1
+            className="aversa-herbals-head-tag"
+            style={{ textAlign: "center" }}
+          >
+            Explore Our Products
+          </h1>
+          <p
+            className="aversa-herbals-para-tag-two"
+            style={{ textAlign: "center", margin: "0" }}
+          >
+            Dive into a world of herbal wonders. From soothing teas to
+            revitalizing supplements, our collection is designed to cater to
+            your unique wellness needs.
+          </p>
+>>>>>>> 9461787c06cd469e2ec0bdf0936399af80c555d2
           <div>
             <TempProducts />
           </div>
@@ -181,8 +244,8 @@ const WebsiteHomepage = () => {
           </p>
           {/* <Row>
             <Col sm={4} className="mt-5">
-              <Card style={{ height: "100%" }}>
-                <Card.Body style={{ height: "100%" }}>
+              <Card style={{ height: "100%",width:"100%" }}>
+                <Card.Body style={{ height: "100%",width:"100%" }}>
                   <div>
                     <h1 className="aversa-info-text-logo">🌿</h1>
                     <h1 className="aversa-herbals-head-tag-two">
@@ -204,8 +267,8 @@ const WebsiteHomepage = () => {
               </Card>
             </Col>
             <Col sm={4} className="mt-5">
-              <Card style={{ height: "100%" }}>
-                <Card.Body style={{ height: "100%" }}>
+              <Card style={{ height: "100%",width:"100%" }}>
+                <Card.Body style={{ height: "100%" ,width:"100%"}}>
                   <div>
                     <h1 className="aversa-info-text-logo">🌺</h1>
                     <h1 className="aversa-herbals-head-tag-two">
@@ -227,8 +290,8 @@ const WebsiteHomepage = () => {
               </Card>
             </Col>
             <Col sm={4} className="mt-5">
-              <Card style={{ height: "100%" }}>
-                <Card.Body style={{ height: "100%" }}>
+              <Card style={{ height: "100%",width:"100%" }}>
+                <Card.Body style={{ height: "100%",width:"100%" }}>
                   <div>
                     <h1 className="aversa-info-text-logo">🌼</h1>
                     <h1 className="aversa-herbals-head-tag-two">
@@ -251,8 +314,8 @@ const WebsiteHomepage = () => {
               </Card>
             </Col>
             <Col sm={4} className="mt-5">
-              <Card style={{ height: "100%" }}>
-                <Card.Body style={{ height: "100%" }}>
+              <Card style={{ height: "100%",width:"100%" }}>
+                <Card.Body style={{ height: "100%",width:"100%" }}>
                   <div>
                     <h1 className="aversa-info-text-logo">🍃</h1>
                     <h1 className="aversa-herbals-head-tag-two">
@@ -274,8 +337,8 @@ const WebsiteHomepage = () => {
               </Card>
             </Col>
             <Col sm={4} className="mt-5">
-              <Card style={{ height: "100%" }}>
-                <Card.Body style={{ height: "100%" }}>
+              <Card style={{ height: "100%" ,width:"100%"}}>
+                <Card.Body style={{ height: "100%",width:"100%" }}>
                   <div>
                     <h1 className="aversa-info-text-logo">📚</h1>
                     <h1 className="aversa-herbals-head-tag-two">
@@ -296,8 +359,8 @@ const WebsiteHomepage = () => {
               </Card>
             </Col>
             <Col sm={4} className="mt-5">
-              <Card style={{ height: "100%" }}>
-                <Card.Body style={{ height: "100%" }}>
+              <Card style={{ height: "100%",width:"100%" }}>
+                <Card.Body style={{ height: "100%",width:"100%" }}>
                   <div>
                     <h1 className="aversa-info-text-logo">🌱</h1>
                     <h1 className="aversa-herbals-head-tag-two">
@@ -325,8 +388,13 @@ const WebsiteHomepage = () => {
               <img alt="" src={happyguyimage} className="happy-guy-image" />
             </Col>
             <Col sm={6}>
+<<<<<<< HEAD
               <Card>
                 <Card.Body style={{ height: "100%" }}>
+=======
+              <Card style={{width:"100%"}}>
+                <Card.Body style={{height:"100%",width:"100%"}}>
+>>>>>>> 9461787c06cd469e2ec0bdf0936399af80c555d2
                   <p className="aversa-herbals-para-tag-one">
                     There are a lot of reasons to become a Aversa Herbal
                     Independent Associate. Maybe you want a part-time business

@@ -20,14 +20,14 @@ const ProductsCarousal = () => {
         {products &&
           products.slice(0).map((product) => (
             <Col sm={4} className="mt-5">
-              <Card>
+              <Card style={{width:"100%"}}>
                 <Card.Img
                   variant="top"
                   src={product.image}
                   alt={product.title}
                   style={{ height: "100%", width: "100%" }}
                 />
-                <Card.Body>
+                <Card.Body style={{width:"100%"}}>
                   <Card.Title className="aversa-herbals-head-tag-two">
                     <div className="aversa-herbals-head-tag-two">
                       {product.title}

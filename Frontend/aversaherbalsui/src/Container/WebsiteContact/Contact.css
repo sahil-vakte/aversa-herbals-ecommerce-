@@ -1,0 +1,128 @@
+.form-container {
+    /* background-color: #194A33; */
+    background-image: url(https://img.freepik.com/free-photo/benefits-ayurvedic-healing-herbs_1340-25630.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value as needed */
+    border: 1px solid #ccc; /* Add border style */
+    padding: 20px; /* Add padding for spacing */
+    position: relative;
+  }
+
+  .form-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    
+  }
+  
+  label {
+    position: relative;
+    color: white;
+    font-weight: bolder;
+  }
+  form {
+    
+    width: 300px; /* Adjust form width as needed */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    position: relative;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    position: relative;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    position: relative;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .contactusbt{
+    font-weight: bolder;
+    position: relative;
+    color: white;
+    margin-right: 50px;
+    font-style: italic;
+  }
+
+  
+  .footer {
+/* margin-top: 100px; */
+    background-color:#d9e0dd;
+    display: flex;
+    justify-content: space-between; /* Adjust the alignment of the cards */
+  }
+  
+  .card {
+    width: 30%; /* Adjust the width of each card */
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    background-color: #166233; /* Set the background color here */
+    color: white; /* White text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .gettouch{
+    margin-top: 76px;
+    background-color: #166233;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px
+    ;
+  } 
+
+  .gettouch h1 {
+    font-weight: bolder;
+    
+    color: white;
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .form-container {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    form {
+      width: 100%; /* Adjust form width for smaller screens */
+    }
+  
+    .card {
+      width: calc(50% - 20px); /* Adjust card width for smaller screens */
+    }
+  }
+
+  

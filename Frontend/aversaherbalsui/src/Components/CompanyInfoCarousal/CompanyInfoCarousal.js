@@ -48,8 +48,9 @@ function CompanyInfoCarousal() {
               <Col sm={6} className="p-0">
                 <Card
                   className="custom-card-classname"
+                  style={{width:"100%"}}
                 >
-                  <Card.Body>
+                  <Card.Body style={{width:"100%"}}>
                     <h1 className="aversa-herbals-head-tag">
                       Wellness approach
                     </h1>
@@ -91,8 +92,9 @@ function CompanyInfoCarousal() {
                 <Card
                   //   style={{ marginTop: "180px",marginLeft:"-95px" }}
                   className="custom-card-classname"
+                  style={{width:"100%"}}
                 >
-                  <Card.Body>
+                  <Card.Body style={{width:"100%"}}>
                     <h1 className="aversa-herbals-head-tag">
                       Wellness approach
                     </h1>
@@ -130,10 +132,11 @@ function CompanyInfoCarousal() {
                   className="company-info-carousal-images"
                 />
               </Col>
-              <Col sm={6} className="p-0">
+              <Col sm={6} className="p-0" style={{width:"100%"}}>
                 <Card
                   //   style={{ marginTop: "180px",marginLeft:"-95px" }}
                   className="custom-card-classname"
+                  style={{width:"100%"}}
                 >
                   <Card.Body>
                     <h1 className="aversa-herbals-head-tag">

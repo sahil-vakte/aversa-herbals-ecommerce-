@@ -1,14 +1,73 @@
 const Product = require('../models/product');
 
+// exports.createProduct = async (req, res) => {
+//   try {
+//     const productId = await Product.createProduct(req.body);
+//     res.json({ success: true, productId });
+//   } catch (error) {
+//     console.error(error);
+//     res.status(500).json({ success: false, error: 'Internal Server Error' });
+//   }
+// };
+
+// exports.createProduct = async (req, res) => {
+//   try {
+//     // Convert string fields to numbers
+//     req.body.price = parseFloat(req.body.price);
+//     req.body.distributed_price = parseFloat(req.body.distributed_price);
+//     req.body.available_quantity = parseInt(req.body.available_quantity);
+
+//     console.log('Request Body:', req.body); // Add this line to log the request body
+
+//     const productId = await Product.createProduct(req.body);
+//     res.json({ success: true, productId });
+//   } catch (error) {
+//     console.error(error);
+//     res.status(500).json({ success: false, error: 'Internal Server Error' });
+//   }
+// };
+
 exports.createProduct = async (req, res) => {
   try {
-    const productId = await Product.createProduct(req.body);
-    res.json({ success: true, productId });
+      const {
+          title,
+          subtitle,
+          properties,
+          ingredients,
+          note,
+          howtouse,
+          price,
+          distributed_price,
+          active_status,
+          available_quantity
+      } = req.body;
+
+      const imagePath = req.file.path; // Access the file path from multer
+
+      const product = {
+          title,
+          subtitle,
+          properties,
+          ingredients,
+          note,
+          howtouse,
+          price,
+          distributed_price,
+          active_status,
+          available_quantity,
+          image: imagePath
+      };
+
+      const productId = await Product.createProduct(product);
+      res.json({ success: true, productId });
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ success: false, error: 'Internal Server Error' });
+      console.error(error);
+      res.status(500).json({ success: false, error: 'Internal Server Error' });
   }
 };
+
+
+
 
 exports.getAllProducts = async (req, res) => {
   try {
