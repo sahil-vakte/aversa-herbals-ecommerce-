@@ -133,20 +133,18 @@ const WebsiteHomepage = () => {
             <CompanyInfoCarousal/>
         </div> */}
         <div className="mt-5">
-<<<<<<< HEAD
-=======
-          <h1
+          {/* <h1
             className="aversa-herbals-head-tag"
             style={{ textAlign: "center" }}
           >
             Why Choose Aversa Herbals?
           </h1>
           <div className="mt-5">
-          <CompanyInfoCarousal/>
-          </div>
+            <CompanyInfoCarousal />
+          </div> */}
 
-          <Card className="mt-3" style={{width:"100%"}}>
-            <Card.Body style={{width:"100%"}}>
+          {/* <Card className="mt-3" style={{ width: "100%" }}>
+            <Card.Body style={{ width: "100%" }}>
               <div>
                 <h1 className="aversa-herbals-head-tag-two">
                   🌿 Natural Wellness :
@@ -194,8 +192,8 @@ const WebsiteHomepage = () => {
             Dive into a world of herbal wonders. From soothing teas to
             revitalizing supplements, our collection is designed to cater to
             your unique wellness needs.
-          </p>
->>>>>>> 9461787c06cd469e2ec0bdf0936399af80c555d2
+          </p> */}
+
           <div>
             <TempProducts />
           </div>
@@ -388,7 +386,7 @@ const WebsiteHomepage = () => {
               <img alt="" src={happyguyimage} className="happy-guy-image" />
             </Col>
             <Col sm={6}>
-<<<<<<< HEAD
+
               <Card>
                 <Card.Body style={{ height: "100%" }}>
 =======
