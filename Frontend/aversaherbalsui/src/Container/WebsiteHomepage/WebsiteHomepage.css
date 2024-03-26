@@ -3,12 +3,13 @@
     padding-top: 80px;
     padding-bottom: 20px;
     overflow-x: hidden;
+    
 }
 
 .common-heding-green-tag{
     color: #023020;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: bold;      
 }
 
 .landing-page-image{
@@ -253,6 +254,7 @@ herbals-head-tag-h4{
     
     
    .card-container{
+    width: 100%;
     display: block;
     justify-content: space-around;
     padding-top: 20px;

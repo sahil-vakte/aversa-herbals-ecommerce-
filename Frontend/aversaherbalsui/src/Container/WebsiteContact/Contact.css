@@ -83,12 +83,12 @@
   }
   
   .card {
-    width: 30%; /* Adjust the width of each card */
+    /* width: 30%; Adjust the width of each card */
     padding: 30px;
     margin: 30px;
     border: 1px solid #ccc;
     border-radius: 9px;
-    background-color: #166233; /* Set the background color here */
+    background-color: #166233; 
     color: white; /* White text color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -121,7 +121,8 @@
     }
   
     .card {
-      width: calc(50% - 20px); /* Adjust card width for smaller screens */
+      margin-left: 1px;
+    width: calc(100% - px); /* Adjust card width for smaller screens */
     }
   }
 

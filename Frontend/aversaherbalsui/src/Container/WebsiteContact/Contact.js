@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Contact.css";
 import { RiFontSize } from "react-icons/ri";
 import { Card, Col, Container, Row } from "react-bootstrap";
+import Footer from "../../Components/Footer/Footer";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -105,7 +106,7 @@ const Contact = () => {
 
         <div className="form-container mt-5">
           <Row className="align-items-center">
-            <Col sm={6} className="mb-2" >
+            <Col sm={6} className="mb-2">
               <h2 className="contactusbt">Contact Us</h2>
               <p className="contactusbt">
                 Fill all information details to consult with us to get sevices
@@ -148,7 +149,9 @@ const Contact = () => {
             </Col>
           </Row>
         </div>
-
+        <div>
+          <Footer />
+        </div>
         {/* Footer */}
       </div>
     </Container>
