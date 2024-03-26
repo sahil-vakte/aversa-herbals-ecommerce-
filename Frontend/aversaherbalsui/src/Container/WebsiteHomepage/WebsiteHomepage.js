@@ -25,115 +25,122 @@ const WebsiteHomepage = () => {
   return (
     <div className="background-color-of-application">
       <Container>
-        <div style={{ zIndex: "1" }}>
-          <Row className="align-items-center">
-            <Col sm={6}>
-              <div className="herbals-head-tag">OUR SPECIALITY</div>
-              <div className="aversa-herbals-para-tag-one">
-                <div className="aversa-herbals-para-tag-four">
-                  <div>GREEK</div> <div>MOUNTAIN TEA</div>
+        <div className="container-below-div">
+          <div style={{ zIndex: "1" }}>
+            <Row className="align-items-center">
+              <Col sm={6}>
+                <div className="herbals-head-tag">OUR SPECIALITY</div>
+                <div className="aversa-herbals-para-tag-one">
+                  <div className="aversa-herbals-para-tag-four">
+                    <div>GREEK</div> <div>MOUNTAIN TEA</div>
+                  </div>
                 </div>
+                <div className="pricing-off-gift-cards-hero">
+                  Enjoy 20% OFF gift cards<br></br> no code needed
+                </div>
+                <div>
+                  <Button variant="success" className="hero-button">
+                    Shop out teas >{" "}
+                  </Button>
+                </div>
+              </Col>
+
+              <Col sm={6}>
+                <img alt="" src={landingImage} className="landing-page-image" />
+              </Col>
+            </Row>
+          </div>
+          {/* Below div is for the cards below hero image */}
+          <div className="card-container">
+            <Card className="cardd">
+              <Card.Body>
+                <Card.Title>CAFFEINE FREE</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Herbal Teas
+                </Card.Subtitle>
+
+                <Card.Link href="#">Shop Now</Card.Link>
+              </Card.Body>
+            </Card>
+            <Card className="cardd">
+              <Card.Body>
+                <Card.Title>METABOLIC BOOSTER</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Oolong Teas
+                </Card.Subtitle>
+
+                <Card.Link href="#">Shop Now</Card.Link>
+              </Card.Body>
+            </Card>
+            <Card className="cardd">
+              <Card.Body>
+                <Card.Title>MALABAR COAST</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Masala Chai
+                </Card.Subtitle>
+
+                <Card.Link href="#">Shop Now</Card.Link>
+              </Card.Body>
+            </Card>
+            <Card className="cardd">
+              <Card.Body>
+                <Card.Title>ANTIOXIDANT RICH</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Grean Teas
+                </Card.Subtitle>
+
+                <Card.Link href="#">Shop Now</Card.Link>
+              </Card.Body>
+            </Card>
+          </div>
+          <div className="card2-container">
+            <div className="card2">
+              <div className="herbals-head-tag">SINCE 1983</div>
+              <div className="common-heding-green-tag">
+                Heritage & Tradition
               </div>
-              <div className="pricing-off-gift-cards-hero">
-                Enjoy 20% OFF gift cards<br></br> no code needed
+              <div className="para-card2">
+                Established in 1983, our Tea has been sourcing, manufacturing
+                and distributing quality and affordable tea.
               </div>
-              <div>
-                <Button variant="success" className="hero-button">
-                  Shop out teas >{" "}
-                </Button>
+              <div style={{ fontWeight: "bold" }}>Our Story > </div>
+            </div>
+            <div className="card2">
+              <div className="herbals-head-tag">SINCE 1983</div>
+              <div className="common-heding-green-tag">
+                Heritage & Tradition
               </div>
-            </Col>
-
-            <Col sm={6}>
-              <img alt="" src={landingImage} className="landing-page-image" />
-            </Col>
-          </Row>
-        </div>
-        {/* Below div is for the cards below hero image */}
-        <div className="card-container">
-          <Card className="cardd">
-            <Card.Body>
-              <Card.Title>CAFFEINE FREE</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
-                Herbal Teas
-              </Card.Subtitle>
-
-              <Card.Link href="#">Shop Now</Card.Link>
-            </Card.Body>
-          </Card>
-          <Card className="cardd">
-            <Card.Body>
-              <Card.Title>METABOLIC BOOSTER</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
-                Oolong Teas
-              </Card.Subtitle>
-
-              <Card.Link href="#">Shop Now</Card.Link>
-            </Card.Body>
-          </Card>
-          <Card className="cardd">
-            <Card.Body>
-              <Card.Title>MALABAR COAST</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
-                Masala Chai
-              </Card.Subtitle>
-
-              <Card.Link href="#">Shop Now</Card.Link>
-            </Card.Body>
-          </Card>
-          <Card className="cardd">
-            <Card.Body>
-              <Card.Title>ANTIOXIDANT RICH</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
-                Grean Teas
-              </Card.Subtitle>
-
-              <Card.Link href="#">Shop Now</Card.Link>
-            </Card.Body>
-          </Card>
-        </div>
-        <div className="card2-container">
-          <div className="card2">
-            <div className="herbals-head-tag">SINCE 1983</div>
-            <div className="common-heding-green-tag">Heritage & Tradition</div>
-            <div className="para-card2">
-              Established in 1983, our Tea has been sourcing, manufacturing and
-              distributing quality and affordable tea.
+              <div className="para-card2">
+                Established in 1983, our Tea has been sourcing, manufacturing
+                and distributing quality and affordable tea.
+              </div>
+              <div style={{ fontWeight: "bold" }}>Our Story > </div>
             </div>
-            <div style={{ fontWeight: "bold" }}>Our Story > </div>
-          </div>
-          <div className="card2">
-            <div className="herbals-head-tag">SINCE 1983</div>
-            <div className="common-heding-green-tag">Heritage & Tradition</div>
-            <div className="para-card2">
-              Established in 1983, our Tea has been sourcing, manufacturing and
-              distributing quality and affordable tea.
+            <div className="card2">
+              <div className="herbals-head-tag">SINCE 1983</div>
+              <div className="common-heding-green-tag">
+                Heritage & Tradition
+              </div>
+              <div className="para-card2">
+                Established in 1983, our Tea has been sourcing, manufacturing
+                and distributing quality and affordable tea.
+              </div>
+              <div style={{ fontWeight: "bold" }}>Our Story > </div>
             </div>
-            <div style={{ fontWeight: "bold" }}>Our Story > </div>
           </div>
-          <div className="card2">
-            <div className="herbals-head-tag">SINCE 1983</div>
-            <div className="common-heding-green-tag">Heritage & Tradition</div>
-            <div className="para-card2">
-              Established in 1983, our Tea has been sourcing, manufacturing and
-              distributing quality and affordable tea.
+          <div className="middle-section-after-cards">
+            <div className="featured-product">Featured Products</div>
+            <div className="featured-product-para">
+              Our range of gift boxes are elegantly packed, gorgeous to look at,
+              and packed with the freshest indian teas.
             </div>
-            <div style={{ fontWeight: "bold" }}>Our Story > </div>
           </div>
-        </div>
-        <div className="middle-section-after-cards">
-          <div className="featured-product">Featured Products</div>
-          <div className="featured-product-para">
-            Our range of gift boxes are elegantly packed, gorgeous to look at,
-            and packed with the freshest indian teas.
-          </div>
-        </div>
 
-        {/* <div className="mt-5">
+          {/* <div className="mt-5">
             <CompanyInfoCarousal/>
         </div> */}
-        <div className="mt-5">
-          {/* <h1
+          <div className="mt-5">
+            {/* <h1
             className="aversa-herbals-head-tag"
             style={{ textAlign: "center" }}
           >
@@ -143,7 +150,7 @@ const WebsiteHomepage = () => {
             <CompanyInfoCarousal />
           </div> */}
 
-          {/* <Card className="mt-3" style={{ width: "100%" }}>
+            {/* <Card className="mt-3" style={{ width: "100%" }}>
             <Card.Body style={{ width: "100%" }}>
               <div>
                 <h1 className="aversa-herbals-head-tag-two">
@@ -194,53 +201,57 @@ const WebsiteHomepage = () => {
             your unique wellness needs.
           </p> */}
 
-          <div>
-            <TempProducts />
+            <div>
+              <TempProducts />
+            </div>
           </div>
-        </div>
-        <div className="img-info">
-          <Row className="align-items-center">
-            <Col sm={6}>
-              <img alt="" src={landingImage2} className="landing-page-image1" />
-            </Col>
+          <div className="img-info">
+            <Row className="align-items-center">
+              <Col sm={6}>
+                <img
+                  alt=""
+                  src={landingImage2}
+                  className="landing-page-image1"
+                />
+              </Col>
 
-            <Col sm={6}>
-              <div className="align-items-center">
-                <div className="herbals-head-tag">25% Site savings</div>
-                <div className="aversa-herbals-para-tag-four">
-                  <div>HIGH QUALITY TEAS &</div> <div>BOTANICALS</div>
+              <Col sm={6}>
+                <div className="align-items-center">
+                  <div className="herbals-head-tag">25% Site savings</div>
+                  <div className="aversa-herbals-para-tag-four">
+                    <div>HIGH QUALITY TEAS &</div> <div>BOTANICALS</div>
+                  </div>
+                  <div className="pricing-off-gift-cards-hero">
+                    Save 25% sitewide on beautifully packaged gift sets, tea
+                    <br></br> collections, and exquisite accessories Moms adore.
+                  </div>
+                  <div>
+                    <Button variant="success" className="hero-button">
+                      Shop out teas >{" "}
+                    </Button>
+                  </div>
                 </div>
-                <div className="pricing-off-gift-cards-hero">
-                  Save 25% sitewide on beautifully packaged gift sets, tea
-                  <br></br> collections, and exquisite accessories Moms adore.
-                </div>
-                <div>
-                  <Button variant="success" className="hero-button">
-                    Shop out teas >{" "}
-                  </Button>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <div className="mt-5">
-          <h4>Why Choose our Teas</h4>
-          <h1
-            className="aversa-herbals-head-tag"
-            style={{ textAlign: "center" }}
-          >
-            Aversa Herbal Network - Your Gateway to Wellness and Wealth
-          </h1>
-          <p
-            className="aversa-herbals-para-tag-two"
-            style={{ textAlign: "center", margin: "0px" }}
-          >
-            Discover the boundless wonders of herbal wisdom and embrace a
-            holistic approach to well-being with Aversa Herbals. Our curated
-            collection of herbal products is more than just a range; it's a
-            journey into the heart of nature's healing power.
-          </p>
-          {/* <Row>
+              </Col>
+            </Row>
+          </div>
+          <div className="mt-5">
+            <h4>Why Choose our Teas</h4>
+            <h1
+              className="aversa-herbals-head-tag"
+              style={{ textAlign: "center" }}
+            >
+              Aversa Herbal Network - Your Gateway to Wellness and Wealth
+            </h1>
+            <p
+              className="aversa-herbals-para-tag-two"
+              style={{ textAlign: "center", margin: "0px" }}
+            >
+              Discover the boundless wonders of herbal wisdom and embrace a
+              holistic approach to well-being with Aversa Herbals. Our curated
+              collection of herbal products is more than just a range; it's a
+              journey into the heart of nature's healing power.
+            </p>
+            {/* <Row>
             <Col sm={4} className="mt-5">
               <Card style={{ height: "100%",width:"100%" }}>
                 <Card.Body style={{ height: "100%",width:"100%" }}>
@@ -379,9 +390,9 @@ const WebsiteHomepage = () => {
               </Card>
             </Col>
           </Row> */}
-        </div>
-        <div className="mt-5">
-          {/* <Row className="align-items-center mt-5">
+          </div>
+          <div className="mt-5">
+            {/* <Row className="align-items-center mt-5">
             <Col sm={6}>
               <img alt="" src={happyguyimage} className="happy-guy-image" />
             </Col>
@@ -432,14 +443,15 @@ const WebsiteHomepage = () => {
               </Card>
             </Col>
           </Row> */}
-          <div style={{ textAlign: "right" }} className="mt-3">
-            <button className="see-all-buttone">
-              <FiArrowRightCircle /> Join Now
-            </button>
+            <div style={{ textAlign: "right" }} className="mt-3">
+              <button className="see-all-buttone">
+                <FiArrowRightCircle /> Join Now
+              </button>
+            </div>
           </div>
-        </div>
-        <div className="footer-container">
-          <Footer />
+          <div className="footer-container">
+            <Footer />
+          </div>
         </div>
       </Container>
     </div>

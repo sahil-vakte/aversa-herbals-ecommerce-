@@ -1,11 +1,13 @@
+import img1 from "../Assets/aversa-products/IMG_0913.jpeg"
+
 [  
+  
     {
     "id": 1,
       "title": "Red Aloe Vera Juice",
-      "url": "../Assets/aversa-products/IMG_0913.jpeg"
+      "url": img1
     },
-   
-   {
+      {
      "id": 2,
       "title": "Natural Hair Oil",
       "url": "https://example.com/id2.jpg"

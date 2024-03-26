@@ -251,6 +251,12 @@ herbals-head-tag-h4{
         display: block;
         justify-content: space-between;
     }
+
+    .container-below-div{
+   display: block;
+    }
+       
+   
     
     
    .card-container{
@@ -289,13 +295,14 @@ herbals-head-tag-h4{
    .card2-container{
     display: block;
     justify-content: space-between;
-   
     height: 450px;
     padding: 20px;
     margin: 10px;
     margin-right: 0;
     margin-left: 0;
     padding-bottom: 20px;
+    position: relative;
+    top: 2000px;
    }
    .card2{
     height: 200px;

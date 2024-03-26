@@ -30,23 +30,23 @@ function AppNavbar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/*">Home</Nav.Link>
+            {/* <Nav.Link href="/*">Home</Nav.Link>
             <Nav.Link href="/products">Products</Nav.Link>
             <Nav.Link href="/wellnessresources">Wellness Resources</Nav.Link>
             <Nav.Link href="/about">About Aversa Herbals</Nav.Link>
-            <Nav.Link href="/contact">Contact Us</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link> */}
 
-            {/* <Link className="nav-link" to="/">
+            <Link className="nav-link" to="/*">
               Home
             </Link>
-            <Nav.Link href="#Products">Products</Nav.Link>
-            <Nav.Link href="#wellness">Wellness Resources</Nav.Link>
+            <Nav.Link href="/Products">Products</Nav.Link>
+            <Nav.Link href="/wellnessresources">Wellness Resources</Nav.Link>
             <Link to="/about" className="nav-link">
               About Aversa Herbals
             </Link>
             <Link to="/contact" className="nav-link">
               Contact US
-            </Link> */}
+            </Link>
           </Nav>
           <Nav>
             <Nav.Link href="#deets">

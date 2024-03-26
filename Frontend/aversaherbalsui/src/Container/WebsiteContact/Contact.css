@@ -84,15 +84,17 @@
   
   .card {
     /* width: 30%; Adjust the width of each card */
-    padding: 30px;
+    padding: 0px;
     margin: 30px;
     border: 1px solid #ccc;
     border-radius: 9px;
-    background-color: #166233; 
+    height: 400px;
     color: white; /* White text color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
   }
   
+ 
  
   .gettouch{
     margin-top: 76px;
