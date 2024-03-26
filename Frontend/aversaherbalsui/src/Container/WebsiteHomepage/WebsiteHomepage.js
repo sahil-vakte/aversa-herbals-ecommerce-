@@ -133,8 +133,6 @@ const WebsiteHomepage = () => {
             <CompanyInfoCarousal/>
         </div> */}
         <div className="mt-5">
-<<<<<<< HEAD
-=======
           <h1
             className="aversa-herbals-head-tag"
             style={{ textAlign: "center" }}
@@ -195,7 +193,6 @@ const WebsiteHomepage = () => {
             revitalizing supplements, our collection is designed to cater to
             your unique wellness needs.
           </p>
->>>>>>> 9461787c06cd469e2ec0bdf0936399af80c555d2
           <div>
             <TempProducts />
           </div>
