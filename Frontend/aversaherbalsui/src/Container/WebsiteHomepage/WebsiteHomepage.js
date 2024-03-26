@@ -1,58 +1,157 @@
 import React from "react";
 import "./WebsiteHomepage.css";
+
 import { Container, Col, Row, Card } from "react-bootstrap";
-import landingImage from "../../Assets/herbalmarketinproduct.jpg";
+import landingImage from "../../Assets/hero1.png";
+import landingImage2 from "../../Assets/heroimg2.png";
 import happyguyimage from "../../Assets/joinbusiness.jpg";
 import ProductsCarousal from "../../Components/ProductsCarousal/ProductsCarousal";
 import { FiArrowRightCircle } from "react-icons/fi";
 import CompanyInfoCarousal from "../../Components/CompanyInfoCarousal/CompanyInfoCarousal";
+import Button from "react-bootstrap/Button";
+import card1Img from "../../Assets/card1.png";
+import {
+  MDBFooter,
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBIcon,
+} from "mdb-react-ui-kit";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "../../Components/Footer/Footer";
+import TempProducts from "../../Components/ProductsCrouselTemp/TempProducts";
 
 const WebsiteHomepage = () => {
   return (
     <div className="background-color-of-application">
       <Container>
-        <div>
-          <Row className="align-items-center">
-            <Col sm={6}>
-              <h1 className="aversa-herbals-head-tag">
-                Welcome to Aversa Herbals: Where Nature Meets Wellness
-              </h1>
-              <p className="aversa-herbals-para-tag-one">
-                Discover a world of well-being at Aversa Herbals, your trusted
-                destination for premium herbal products. Immerse yourself in the
-                healing power of nature and embark on a journey towards a
-                healthier, more natural lifestyle.
-                <br />
-                At Aversa Herbals, we are passionate about bringing you the
-                purest herbal remedies that Mother Nature has to offer. Our
-                products are meticulously crafted to elevate your well-being,
-                providing a harmonious blend of traditional wisdom and modern
-                science.
-              </p>
-            </Col>
-            <Col sm={6}>
-              <img alt="" src={landingImage} className="landing-page-image" />
-            </Col>
-          </Row>
-        </div>
+        <div className="container-below-div">
+          <div style={{ zIndex: "1" }}>
+            <Row className="align-items-center">
+              <Col sm={6}>
+                <div className="herbals-head-tag">OUR SPECIALITY</div>
+                <div className="aversa-herbals-para-tag-one">
+                  <div className="aversa-herbals-para-tag-four">
+                    <div>GREEK</div> <div>MOUNTAIN TEA</div>
+                  </div>
+                </div>
+                <div className="pricing-off-gift-cards-hero">
+                  Enjoy 20% OFF gift cards<br></br> no code needed
+                </div>
+                <div>
+                  <Button variant="success" className="hero-button">
+                    Shop out teas >{" "}
+                  </Button>
+                </div>
+              </Col>
 
-        {/* <div className="mt-5">
+              <Col sm={6}>
+                <img alt="" src={landingImage} className="landing-page-image" />
+              </Col>
+            </Row>
+          </div>
+          {/* Below div is for the cards below hero image */}
+          <div className="card-container">
+            <Card className="cardd">
+              <Card.Body>
+                <Card.Title>CAFFEINE FREE</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Herbal Teas
+                </Card.Subtitle>
+
+                <Card.Link href="#">Shop Now</Card.Link>
+              </Card.Body>
+            </Card>
+            <Card className="cardd">
+              <Card.Body>
+                <Card.Title>METABOLIC BOOSTER</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Oolong Teas
+                </Card.Subtitle>
+
+                <Card.Link href="#">Shop Now</Card.Link>
+              </Card.Body>
+            </Card>
+            <Card className="cardd">
+              <Card.Body>
+                <Card.Title>MALABAR COAST</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Masala Chai
+                </Card.Subtitle>
+
+                <Card.Link href="#">Shop Now</Card.Link>
+              </Card.Body>
+            </Card>
+            <Card className="cardd">
+              <Card.Body>
+                <Card.Title>ANTIOXIDANT RICH</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Grean Teas
+                </Card.Subtitle>
+
+                <Card.Link href="#">Shop Now</Card.Link>
+              </Card.Body>
+            </Card>
+          </div>
+          <div className="card2-container">
+            <div className="card2">
+              <div className="herbals-head-tag">SINCE 1983</div>
+              <div className="common-heding-green-tag">
+                Heritage & Tradition
+              </div>
+              <div className="para-card2">
+                Established in 1983, our Tea has been sourcing, manufacturing
+                and distributing quality and affordable tea.
+              </div>
+              <div style={{ fontWeight: "bold" }}>Our Story > </div>
+            </div>
+            <div className="card2">
+              <div className="herbals-head-tag">SINCE 1983</div>
+              <div className="common-heding-green-tag">
+                Heritage & Tradition
+              </div>
+              <div className="para-card2">
+                Established in 1983, our Tea has been sourcing, manufacturing
+                and distributing quality and affordable tea.
+              </div>
+              <div style={{ fontWeight: "bold" }}>Our Story > </div>
+            </div>
+            <div className="card2">
+              <div className="herbals-head-tag">SINCE 1983</div>
+              <div className="common-heding-green-tag">
+                Heritage & Tradition
+              </div>
+              <div className="para-card2">
+                Established in 1983, our Tea has been sourcing, manufacturing
+                and distributing quality and affordable tea.
+              </div>
+              <div style={{ fontWeight: "bold" }}>Our Story > </div>
+            </div>
+          </div>
+          <div className="middle-section-after-cards">
+            <div className="featured-product">Featured Products</div>
+            <div className="featured-product-para">
+              Our range of gift boxes are elegantly packed, gorgeous to look at,
+              and packed with the freshest indian teas.
+            </div>
+          </div>
+
+          {/* <div className="mt-5">
             <CompanyInfoCarousal/>
         </div> */}
-
-        <div className="mt-5">
-          <h1
+          <div className="mt-5">
+            {/* <h1
             className="aversa-herbals-head-tag"
             style={{ textAlign: "center" }}
           >
             Why Choose Aversa Herbals?
           </h1>
           <div className="mt-5">
-          <CompanyInfoCarousal/>
-          </div>
+            <CompanyInfoCarousal />
+          </div> */}
 
-          <Card className="mt-3" style={{width:"100%"}}>
-            <Card.Body style={{width:"100%"}}>
+            {/* <Card className="mt-3" style={{ width: "100%" }}>
+            <Card.Body style={{ width: "100%" }}>
               <div>
                 <h1 className="aversa-herbals-head-tag-two">
                   🌿 Natural Wellness :
@@ -100,29 +199,59 @@ const WebsiteHomepage = () => {
             Dive into a world of herbal wonders. From soothing teas to
             revitalizing supplements, our collection is designed to cater to
             your unique wellness needs.
-          </p>
-          <div>
-            <ProductsCarousal />
-          </div>
-        </div>
+          </p> */}
 
-        <div className="mt-5">
-          <h1
-            className="aversa-herbals-head-tag"
-            style={{ textAlign: "center" }}
-          >
-            Unlock the Secrets of Herbal Living with Aversa Herbals
-          </h1>
-          <p
-            className="aversa-herbals-para-tag-two"
-            style={{ textAlign: "center", margin: "0px" }}
-          >
-            Discover the boundless wonders of herbal wisdom and embrace a
-            holistic approach to well-being with Aversa Herbals. Our curated
-            collection of herbal products is more than just a range; it's a
-            journey into the heart of nature's healing power.
-          </p>
-          <Row>
+            <div>
+              <TempProducts />
+            </div>
+          </div>
+          <div className="img-info">
+            <Row className="align-items-center">
+              <Col sm={6}>
+                <img
+                  alt=""
+                  src={landingImage2}
+                  className="landing-page-image1"
+                />
+              </Col>
+
+              <Col sm={6}>
+                <div className="align-items-center">
+                  <div className="herbals-head-tag">25% Site savings</div>
+                  <div className="aversa-herbals-para-tag-four">
+                    <div>HIGH QUALITY TEAS &</div> <div>BOTANICALS</div>
+                  </div>
+                  <div className="pricing-off-gift-cards-hero">
+                    Save 25% sitewide on beautifully packaged gift sets, tea
+                    <br></br> collections, and exquisite accessories Moms adore.
+                  </div>
+                  <div>
+                    <Button variant="success" className="hero-button">
+                      Shop out teas >{" "}
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </div>
+          <div className="mt-5">
+            <h4>Why Choose our Teas</h4>
+            <h1
+              className="aversa-herbals-head-tag"
+              style={{ textAlign: "center" }}
+            >
+              Aversa Herbal Network - Your Gateway to Wellness and Wealth
+            </h1>
+            <p
+              className="aversa-herbals-para-tag-two"
+              style={{ textAlign: "center", margin: "0px" }}
+            >
+              Discover the boundless wonders of herbal wisdom and embrace a
+              holistic approach to well-being with Aversa Herbals. Our curated
+              collection of herbal products is more than just a range; it's a
+              journey into the heart of nature's healing power.
+            </p>
+            {/* <Row>
             <Col sm={4} className="mt-5">
               <Card style={{ height: "100%",width:"100%" }}>
                 <Card.Body style={{ height: "100%",width:"100%" }}>
@@ -260,23 +389,21 @@ const WebsiteHomepage = () => {
                 </Card.Body>
               </Card>
             </Col>
-          </Row>
-        </div>
-
-        <div className="mt-5">
-          <h1
-            className="aversa-herbals-head-tag"
-            style={{ textAlign: "center" }}
-          >
-            Aversa Herbal Network - Your Gateway to Wellness and Wealth
-          </h1>
-          <Row className="align-items-center mt-5">
+          </Row> */}
+          </div>
+          <div className="mt-5">
+            {/* <Row className="align-items-center mt-5">
             <Col sm={6}>
               <img alt="" src={happyguyimage} className="happy-guy-image" />
             </Col>
             <Col sm={6}>
+
+              <Card>
+                <Card.Body style={{ height: "100%" }}>
+=======
               <Card style={{width:"100%"}}>
                 <Card.Body style={{height:"100%",width:"100%"}}>
+>>>>>>> 9461787c06cd469e2ec0bdf0936399af80c555d2
                   <p className="aversa-herbals-para-tag-one">
                     There are a lot of reasons to become a Aversa Herbal
                     Independent Associate. Maybe you want a part-time business
@@ -300,19 +427,31 @@ const WebsiteHomepage = () => {
                     creativity knows no bounds. Let your goals become your
                     reality.
                   </p>
-                  <br/>
-                  <p className="aversa-herbals-para-tag-three" style={{textAlign:"left",color:"#1c324a",fontSize:"1.5rem"}}>
-                  Ready to transform lives and your future? Join the Aversa Herbal Network today! 🌿✨
+                  <br />
+                  <p
+                    className="aversa-herbals-para-tag-three"
+                    style={{
+                      textAlign: "left",
+                      color: "#1c324a",
+                      fontSize: "1.5rem",
+                    }}
+                  >
+                    Ready to transform lives and your future? Join the Aversa
+                    Herbal Network today! 🌿✨
                   </p>
                 </Card.Body>
               </Card>
             </Col>
-          </Row>
-          <div style={{ textAlign: "right" }} className="mt-3">
-        <button className="see-all-buttone">
-          <FiArrowRightCircle /> Join Now
-        </button>
-      </div>
+          </Row> */}
+            <div style={{ textAlign: "right" }} className="mt-3">
+              <button className="see-all-buttone">
+                <FiArrowRightCircle /> Join Now
+              </button>
+            </div>
+          </div>
+          <div className="footer-container">
+            <Footer />
+          </div>
         </div>
       </Container>
     </div>

@@ -1,0 +1,48 @@
+/* App.css */
+/* Mobile-first styles */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 1000px; /* Adjust this value as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media only screen and (min-width: 600px) {
+  /* Adjustments for tablets */
+  .App {
+    padding: 20px 40px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  /* Adjustments for desktops */
+  .App {
+    padding: 20px 80px;
+  }
+}

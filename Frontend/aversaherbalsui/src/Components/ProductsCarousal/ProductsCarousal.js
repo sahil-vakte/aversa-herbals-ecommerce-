@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button, Card, Col, Row } from "react-bootstrap";
 import axios from "axios";
 import { FiArrowRightCircle } from "react-icons/fi";
+import "../../Container/WebsiteHomepage/WebsiteHomepage.css";
 
 const ProductsCarousal = () => {
   const [products, setProducts] = useState([]);
@@ -17,7 +18,7 @@ const ProductsCarousal = () => {
     <div>
       <Row>
         {products &&
-          products.slice(0, 6).map((product) => (
+          products.slice(0).map((product) => (
             <Col sm={4} className="mt-5">
               <Card style={{width:"100%"}}>
                 <Card.Img
@@ -28,12 +29,8 @@ const ProductsCarousal = () => {
                 />
                 <Card.Body style={{width:"100%"}}>
                   <Card.Title className="aversa-herbals-head-tag-two">
-                    <div>{product.title}</div>
-                    <div>
-                      ₹ 1199{" "}
-                      <span style={{ color: "gray", fontSize: "13px" }}>
-                        MRP (incl. of all taxes)
-                      </span>
+                    <div className="aversa-herbals-head-tag-two">
+                      {product.title}
                     </div>
                   </Card.Title>
                 </Card.Body>
