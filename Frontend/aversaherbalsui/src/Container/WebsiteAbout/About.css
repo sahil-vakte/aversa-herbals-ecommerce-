@@ -1,0 +1,129 @@
+.about-container {
+  padding: 100px;
+}
+
+.about-section,
+.mission-section,
+.values-section,
+.team-section {
+  margin-bottom: 50px;
+}
+
+.about-section,
+.mission-section,
+.values-section {
+  padding: 20px;
+  border-radius: 10px;
+  position: relative; /* Ensure relative positioning for overlay */
+}
+
+.about-section::before,
+.mission-section::before,
+.values-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for darkness */
+  border-radius: 10px;
+}
+
+.about-section {
+  font-weight: bolder;
+  font: 900;
+  color: white;
+  content: "";
+  top: 0;
+  position: relative;
+  background-image: url('https://t3.ftcdn.net/jpg/03/06/49/30/360_F_306493034_F8JVSWMYPxf9bdaEJ0miHoaEGlCSLstR.jpg');
+  background-size: cover;
+}
+
+.mission-section {
+  font-weight: bolder;
+  font: 900;
+  color: white;
+  background-image: url('https://media.istockphoto.com/id/697860312/photo/indian-ayurvedic-dietary-supplement-called-chyawanprash-chyavanaprasha-is-a-cooked-mixture-of.jpg?s=612x612&w=0&k=20&c=outabsxtvdSSt4aCkRdjtKrVtv7qko4N6AMA6qVtWmo=');
+  background-size: cover; 
+}
+
+.values-section {
+  font-weight: bolder;
+  font: 900;
+  color: white;
+  background-image: url('https://media.istockphoto.com/id/1245095474/photo/holy-basil-or-tulsi-leaves.webp?b=1&s=170667a&w=0&k=20&c=M6dXgiMulF3QcqamY6ZlWC8J6DoFQBHbqPmwStOv6b4=');
+  background-size: cover;
+}
+
+.team-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutcon{
+  position: relative;
+}
+.team-member {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+.team-member:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  width: 100px; /* Adjust image size as needed */
+  border-radius: 50%; /* Make images circular */
+}
+.team-member h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.team-member p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.team-section {
+  margin-top: 30px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.team-heading{
+  font-size: 32px;
+            color: #333;
+            margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    padding: 30px; /* Adjust padding for smaller screens */
+  }
+
+  .about-section,
+  .mission-section,
+  .values-section {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .about-section::before,
+  .mission-section::before,
+  .values-section::before {
+    border-radius: 5px; /* Adjust border-radius for smaller screens */
+  }
+
+  .team-member {
+    margin-bottom: 20px;
+  }
+}

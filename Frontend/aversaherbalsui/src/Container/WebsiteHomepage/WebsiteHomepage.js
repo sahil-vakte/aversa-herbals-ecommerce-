@@ -133,7 +133,11 @@ const WebsiteHomepage = () => {
             <CompanyInfoCarousal/>
         </div> */}
         <div className="mt-5">
+<<<<<<< HEAD
+          <h1
+=======
           {/* <h1
+>>>>>>> 4edd9e1dda2e579ff53c0356e60c037adec7ed30
             className="aversa-herbals-head-tag"
             style={{ textAlign: "center" }}
           >
@@ -192,8 +196,12 @@ const WebsiteHomepage = () => {
             Dive into a world of herbal wonders. From soothing teas to
             revitalizing supplements, our collection is designed to cater to
             your unique wellness needs.
+<<<<<<< HEAD
+          </p>
+=======
           </p> */}
 
+>>>>>>> 4edd9e1dda2e579ff53c0356e60c037adec7ed30
           <div>
             <TempProducts />
           </div>
