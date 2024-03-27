@@ -139,13 +139,8 @@ const WebsiteHomepage = () => {
           {/* <div className="mt-5">
             <CompanyInfoCarousal/>
         </div> */}
-<<<<<<< HEAD
-        <div className="mt-5">
-          {/* <h1
-=======
           <div className="mt-5">
             {/* <h1
->>>>>>> c8718559b1603d041a2ae0ae37431b3f923f7ea2
             className="aversa-herbals-head-tag"
             style={{ textAlign: "center" }}
           >

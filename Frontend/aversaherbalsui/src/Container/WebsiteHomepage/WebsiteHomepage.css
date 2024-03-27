@@ -301,13 +301,8 @@ herbals-head-tag-h4{
     margin-right: 0;
     margin-left: 0;
     padding-bottom: 20px;
-<<<<<<< HEAD
-    position: absolute;
-    top: 0%;
-=======
     position: relative;
     top: 2000px;
->>>>>>> c8718559b1603d041a2ae0ae37431b3f923f7ea2
    }
    .card2{
     height: 200px;

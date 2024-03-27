@@ -1,56 +1,6 @@
 import React from "react";
 import "./About.css";
 import { Card, Col, Container, Row } from "react-bootstrap";
-<<<<<<< HEAD
-import Footer from "../../Components/Footer/Footer"
-const About = () => {
-  return (
-    <div className="about-container">
-       <Row className="align-items-center">
-        
-      <div className="about-section">
-        <h2 className="aboutcon">About Us</h2>
-        <p className="aboutcon">
-          Welcome to Our Ayurvedic Company. We specialize in providing natural
-          and holistic healthcare solutions inspired by ancient Ayurvedic
-          practices Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Reiciendis consequuntur quas delectus! Animi quam magnam accusantium
-          deserunt odio et sint. Quibusdam quae unde, debitis accusantium fuga
-          veritatis consectetur esse quos, commodi veniam, dignissimos iure
-          inventore! Magnam consectetur a modi. Nulla non repellendus unde iure
-          ducimus at porro inventore rerum sed?.
-        </p>
-      </div>
-     
-      <div className="mission-section">
-        <h2 className="aboutcon">Our Mission</h2>
-        <p className="aboutcon">
-          Our mission is to promote health and wellness through Ayurveda by
-          offering high-quality products and personalized wellness solutions
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quaerat
-          accusantium dolorum fuga laudantium explicabo repellat blanditiis.
-          Distinctio odit excepturi modi harum quam soluta quibusdam, nemo sunt
-          perspiciatis molestiae dignissimos incidunt magnam vitae deserunt
-          nulla laboriosam, quia adipisci praesentium perferendis ad eaque
-          pariatur itaque asperiores iste? Libero similique laborum
-          dignissimos!.
-        </p>
-      </div>
-      <div className="values-section">
-        <h2 className="aboutcon">Our Values</h2>
-        <ul className="aboutcon">
-          <li>Commitment to quality</li>
-          <li>Respect for nature</li>
-          <li>Empowering individuals to take control of their health</li>
-          <li>Continuous innovation and improvement</li>
-        </ul>
-      </div>
-      </Row >
-      <div className="team-section" style={{display:"block", justifyItems:"center", alignItems:"center"}}>
-        <div >
-         
-          <h2 style={{fontWeight:"bolder", fontStyle:"italic"}}> Our Team:</h2>
-=======
 import Footer from "../../Components/Footer/Footer";
 
 const About = () => {
@@ -98,7 +48,6 @@ const About = () => {
       <div className="team-section">
         <div>
           <h2>Our Team</h2>
->>>>>>> c8718559b1603d041a2ae0ae37431b3f923f7ea2
         </div>
 
         <Row>
@@ -134,13 +83,9 @@ const About = () => {
           </Col>
         </Row>
       </div>
-<<<<<<< HEAD
-      <Footer/>
-=======
       <div>
         <Footer />
       </div>
->>>>>>> c8718559b1603d041a2ae0ae37431b3f923f7ea2
     </div>
   );
 };

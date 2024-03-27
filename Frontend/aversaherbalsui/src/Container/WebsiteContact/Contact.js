@@ -3,10 +3,6 @@ import "./Contact.css";
 import { RiFontSize } from "react-icons/ri";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import Footer from "../../Components/Footer/Footer";
-<<<<<<< HEAD
-=======
-
->>>>>>> c8718559b1603d041a2ae0ae37431b3f923f7ea2
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -152,16 +148,11 @@ const Contact = () => {
             </Col>
           </Row>
         </div>
-<<<<<<< HEAD
-
-        <Footer />      </div>
-=======
         <div>
           <Footer />
         </div>
         {/* Footer */}
       </div>
->>>>>>> c8718559b1603d041a2ae0ae37431b3f923f7ea2
     </Container>
   );
 };
