@@ -42,8 +42,6 @@ exports.createProduct = async (req, res) => {
           available_quantity
       } = req.body;
 
-      const imagePath = req.file.path; // Access the file path from multer
-
       const product = {
           title,
           subtitle,
@@ -55,11 +53,11 @@ exports.createProduct = async (req, res) => {
           distributed_price,
           active_status,
           available_quantity,
-          image: imagePath
+          image: req.file.filename
       };
 
       const productId = await Product.createProduct(product);
-      res.json({ success: true, productId });
+      res.json({ success: true, productId, imagePath: product.image });
   } catch (error) {
       console.error(error);
       res.status(500).json({ success: false, error: 'Internal Server Error' });

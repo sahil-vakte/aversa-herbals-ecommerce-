@@ -3,12 +3,13 @@
     padding-top: 80px;
     padding-bottom: 20px;
     overflow-x: hidden;
+    
 }
 
 .common-heding-green-tag{
     color: #023020;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: bold;      
 }
 
 .landing-page-image{
@@ -250,9 +251,16 @@ herbals-head-tag-h4{
         display: block;
         justify-content: space-between;
     }
+
+    .container-below-div{
+   display: block;
+    }
+       
+   
     
     
    .card-container{
+    width: 100%;
     display: block;
     justify-content: space-around;
     padding-top: 20px;
@@ -287,15 +295,19 @@ herbals-head-tag-h4{
    .card2-container{
     display: block;
     justify-content: space-between;
-   
     height: 450px;
     padding: 20px;
     margin: 10px;
     margin-right: 0;
     margin-left: 0;
     padding-bottom: 20px;
+<<<<<<< HEAD
     position: absolute;
     top: 0%;
+=======
+    position: relative;
+    top: 2000px;
+>>>>>>> c8718559b1603d041a2ae0ae37431b3f923f7ea2
    }
    .card2{
     height: 200px;

@@ -39,6 +39,8 @@ static async createProduct(product) {
         } = product;
 
         console.log('Parameters:', title, subtitle, properties, ingredients, note, howtouse, price, distributed_price, active_status, available_quantity, image);
+        
+        const imagePath = `/uploads/${image}`
 
         const [result] = await db.execute(
             'INSERT INTO products (title, subtitle, properties, ingredients, note, howtouse, price, distributed_price, active_status, available_quantity, image) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
@@ -53,7 +55,7 @@ static async createProduct(product) {
                 distributed_price,
                 active_status === 'true' ? 1 : 0,
                 available_quantity,
-                image
+                imagePath
             ]
         );
 

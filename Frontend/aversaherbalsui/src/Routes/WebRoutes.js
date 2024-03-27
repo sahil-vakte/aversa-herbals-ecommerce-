@@ -17,6 +17,11 @@ import React from 'react'
 // import WebsiteHomepageNew from '../Container/WebsiteHomepage/WebsiteHomepageNew'
 // import About from "../Container/WebsiteAbout/About"
 // import Contact from "../Container/WebsiteContact/Contact"
+<<<<<<< HEAD
+=======
+import Contact from "./../Container/WebsiteContact/Contact";
+import About from "../Container/WebsiteAbout/About";
+>>>>>>> c8718559b1603d041a2ae0ae37431b3f923f7ea2
 
 const WebRoutes = () => {
   return (
@@ -28,8 +33,13 @@ const WebRoutes = () => {
         <Route path="/*" element=<WebsiteHomepage /> />
         <Route path="/products" element=<ProductPage /> />
         <Route path="/wellnessresources" element=<WellnessResources /> />
+<<<<<<< HEAD
         <Route path="/contact" element=<Contact /> />
         <Route path="/about" element=<About /> />
+=======
+        <Route path="/about" element=<About /> />
+        <Route path="/contact" element=<Contact /> />
+>>>>>>> c8718559b1603d041a2ae0ae37431b3f923f7ea2
       </Routes>
     </div>
   );

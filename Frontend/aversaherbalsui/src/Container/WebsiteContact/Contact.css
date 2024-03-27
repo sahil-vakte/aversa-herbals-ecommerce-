@@ -83,16 +83,23 @@
   }
   
   .card {
+<<<<<<< HEAD
     /* width: 100%; Adjust the width of each card */
     padding: 30px;
+=======
+    /* width: 30%; Adjust the width of each card */
+    padding: 0px;
+>>>>>>> c8718559b1603d041a2ae0ae37431b3f923f7ea2
     margin: 30px;
     border: 1px solid #ccc;
     border-radius: 9px;
-    background-color: #166233; /* Set the background color here */
+    height: 400px;
     color: white; /* White text color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
   }
   
+ 
  
   .gettouch{
     margin-top: 76px;
@@ -121,8 +128,13 @@
     }
   
     .card {
+<<<<<<< HEAD
       width: calc(100% - 0px);
       margin-left: 10px;
+=======
+      margin-left: 1px;
+    width: calc(100% - px); /* Adjust card width for smaller screens */
+>>>>>>> c8718559b1603d041a2ae0ae37431b3f923f7ea2
     }
   }
 
