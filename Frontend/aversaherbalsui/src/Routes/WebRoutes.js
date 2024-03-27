@@ -17,6 +17,7 @@ import WellnessResources from "../Container/WebsiteWellnessResourcePage/Wellness
 // import Contact from "../Container/WebsiteContact/Contact"
 import Contact from "./../Container/WebsiteContact/Contact";
 import About from "../Container/WebsiteAbout/About";
+import Business from "../Container/BusinessOppurtunity/Business";
 
 const WebRoutes = () => {
   return (
@@ -30,6 +31,7 @@ const WebRoutes = () => {
         <Route path="/wellnessresources" element=<WellnessResources /> />
         <Route path="/about" element=<About /> />
         <Route path="/contact" element=<Contact /> />
+        <Route path="/business" element=<Business /> />
       </Routes>
     </div>
   );

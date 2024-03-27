@@ -1,62 +1,59 @@
+import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import heroimg2 from "../../Assets/heroimg2.png";
+import Image1 from "../../Assets/aversa-products/IMG_0918.jpeg";
+import Image2 from "../../Assets/aversa-products/IMG_0922.jpeg";
+import Image3 from "../../Assets/aversa-products/IMG_0928.jpeg";
+
 import "./crousels.css";
 
-function UncontrolledExample() {
+const UncontrolledExample = () => {
   return (
-    // <Carousel fade>
-    //   <Carousel.Item>
-    //     <ExampleCarouselImage text="First slide" />
-    //     <Carousel.Caption>
-    //       <h3>First slide label</h3>
-    //       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    //     </Carousel.Caption>
-    //   </Carousel.Item>
-    //   <Carousel.Item>
-    //     <ExampleCarouselImage text="Second slide" />
-    //     <Carousel.Caption>
-    //       <h3>Second slide label</h3>
-    //       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    //     </Carousel.Caption>
-    //   </Carousel.Item>
-    //   <Carousel.Item>
-    //     <ExampleCarouselImage text="Third slide" />
-    //     <Carousel.Caption>
-    //       <h3>Third slide label</h3>
-    //       <p>
-    //         Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-    //       </p>
-    //     </Carousel.Caption>
-    //   </Carousel.Item>
-    // </Carousel>
-    <div className="crousel-container">
-      <Carousel fade>
+    <div>
+      <Carousel>
         <Carousel.Item>
-          <img src={heroimg2} alt="First slide" />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
+          <div className="carousel-item">
+            <div className="text">
+              <h3>Slide 1</h3>
+              <p>This is the text for Slide 1.</p>
+            </div>
+            <div className="image">
+              <img src="Image1" alt="Slide 1" className="img-fluid" />
+            </div>
+          </div>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={heroimg2} alt="Second slide" />
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
+          <div className="carousel-item">
+            <div className="text">
+              <h3>Slide 2</h3>
+              <p>This is the text for Slide 2.</p>
+            </div>
+            <div className="image">
+              <img
+                src="https://via.placeholder.com/400x200"
+                alt="Slide 2"
+                className="img-fluid"
+              />
+            </div>
+          </div>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={heroimg2} alt="Third slide" />
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
+          <div className="carousel-item">
+            <div className="text">
+              <h3>Slide 3</h3>
+              <p>This is the text for Slide 3.</p>
+            </div>
+            <div className="image">
+              <img
+                src="https://via.placeholder.com/400x200"
+                alt="Slide 3"
+                className="img-fluid"
+              />
+            </div>
+          </div>
         </Carousel.Item>
       </Carousel>
     </div>
   );
-}
+};
 
 export default UncontrolledExample;

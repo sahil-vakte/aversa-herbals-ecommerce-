@@ -10,18 +10,19 @@ const ProductPage = () => {
     <div className="shop-container">
       <div className="hero-image">
         <div className="hero-text">
-          <h1>Welcome to Our Shop</h1>
-          <p>Explore our wide range of products</p>
+          <h1>Welcome to the Aversa Herbals Product Collection</h1>
+          {/* <p>Explore our wide range of products</p> */}
         </div>
       </div>
       <div className="shop-categories-product-container">
         {/* <div className="categories">categoreis</div> */}
         <div className="products">
           <p>
-            Choose from over 75 tea blends – from the classic Earl Grey to the
-            award-winning Blueberry Merlot – our whole leaf teas are available
-            in a variety of package types. We hope our teas provide you with
-            some well-deserved comfort during your day.
+            Discover a world of natural wellness with our curated selection of
+            premium herbal remedies. From time-tested traditional formulas to
+            innovative blends backed by modern science, each Aversa Herbals
+            product is crafted with care to support your journey towards optimal
+            health and vitality.
           </p>
 
           <div className="products-crousel">
@@ -29,9 +30,37 @@ const ProductPage = () => {
           </div>
           <div className="hero-image-1">
             <div className="hero-text-1">
-              <h1>Flat 50% Discount </h1>
+              <h1>Exciting News: Aversa Herbals Launches with a Bang!</h1>
               <p>
-                hkslvowocnls lfnflF DEDN ldn DL DEK qckeclcc cQKC CQC QC cskncl
+                Get ready to elevate your wellness journey with Aversa Herbals –
+                and enjoy an irresistible 50% LAUNCHING DISCOUNT on our entire
+                range of premium herbal products!
+              </p>
+            </div>
+          </div>
+          <div className="product-page">
+            <div className="section">
+              <h2>Why Choose Aversa Herbals?</h2>
+              <p>
+                Premium Quality: We're committed to sourcing the finest herbs
+                and botanicals from trusted suppliers worldwide to ensure
+                purity, potency, and effectiveness in every product.
+              </p>
+            </div>
+            <div className="section">
+              <h2>Scientifically Formulated</h2>
+              <p>
+                Backed by a team of experts in herbal medicine and nutritional
+                science, our formulas are carefully crafted to deliver optimal
+                results without compromising on safety or efficacy.
+              </p>
+            </div>
+            <div className="section">
+              <h2>Ethical and Sustainable</h2>
+              <p>
+                We prioritize ethical sourcing practices and sustainable
+                manufacturing processes to minimize our environmental footprint
+                and support the communities we serve.
               </p>
             </div>
           </div>

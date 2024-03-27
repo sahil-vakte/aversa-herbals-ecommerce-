@@ -1,4 +1,6 @@
 import React from "react";
+import "./TempProducts.css";
+// import { LinkButton } from "@babel/core";
 // import productsData from "../../API/images.json";
 import { Button, Card, Col, Row } from "react-bootstrap";
 import "../../Components/ProductPage/ProductPage.css";
@@ -146,27 +148,40 @@ const TempProducts = () => {
     //       </div>
     //     </div>
     // --------------------------------------------------------------------------------------
-    <Row>
-      {productsData.map((product) => (
-        <Col sm={4} className="mt-5" key={product.id}>
-          <Card>
-            <Card.Img
-              variant="top"
-              src={product.url} // Corrected to access image URL from each product
-              alt={product.title} // Corrected to access title from each product
-              style={{ height: "100%", width: "100%" }}
-            />
-            <Card.Body>
-              <Card.Title className="aversa-herbals-head-tag-two">
-                <div className="aversa-herbals-head-tag-two">
-                  {product.title}
-                </div>
-              </Card.Title>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
+    <div className="contain">
+      <div className="prdct-container">
+        <Row>
+          {productsData.slice(0, 6).map((product) => (
+            <Col sm={4} className="mt-5" key={product.id}>
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src={product.url} // Corrected to access image URL from each product
+                  alt={product.title} // Corrected to access title from each product
+                  style={{ height: "100%", width: "100%" }}
+                />
+                <Card.Body>
+                  <Card.Title className="aversa-herbals-head-tag-two">
+                    <div className="aversa-herbals-head-tag-two">
+                      {product.title}
+                    </div>
+                    <div className="price-cart">
+                      <p>
+                        58$ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; - &nbsp; 0 &nbsp; +
+                      </p>
+                    </div>
+                  </Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </div>
+      <div className="button-prdcts">
+        <button className="join-now-button">See All Products ></button>
+      </div>
+    </div>
   );
 };
 

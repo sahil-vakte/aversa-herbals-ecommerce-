@@ -1,0 +1,26 @@
+.contain{
+    display: block;
+}
+
+.contain Row{
+    margin-bottom: 10px;
+}
+
+
+.button-prdcts{
+    align-items: center;
+    padding-top: 5px;
+    position: relative;
+    width: 100%;
+    text-align: right;
+}
+
+.prdct-container{
+    margin-bottom: 55px;
+    margin-right: 0px;
+   
+}
+
+.price-cart{
+    background-color: #eeeeee;
+}

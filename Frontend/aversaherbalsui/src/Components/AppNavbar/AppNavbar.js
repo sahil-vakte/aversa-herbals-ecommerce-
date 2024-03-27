@@ -39,8 +39,16 @@ function AppNavbar() {
             <Link className="nav-link" to="/*">
               Home
             </Link>
-            <Nav.Link href="/Products">Products</Nav.Link>
-            <Nav.Link href="/wellnessresources">Wellness Resources</Nav.Link>
+            <Link to="/products" className="nav-link">
+              Products
+            </Link>
+            <Link to="/wellnessresources" className="nav-link">
+              Wellness Resources
+            </Link>
+
+            <Link to="/business" className="nav-link">
+              Business Oppurtunity
+            </Link>
             <Link to="/about" className="nav-link">
               About Aversa Herbals
             </Link>

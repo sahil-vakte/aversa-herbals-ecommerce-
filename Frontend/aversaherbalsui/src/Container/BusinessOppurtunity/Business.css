@@ -1,0 +1,206 @@
+.container{
+    background-color: rgb(249, 250, 251);
+    padding-top: 80px;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+    display: block;
+}
+
+.main-container {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+  }
+  
+  .main-container {
+    display: flex;
+    position: relative;
+    
+  }
+  
+  
+  .left-div {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: 100;
+    color: #023020; 
+    margin-bottom: 150px;
+  }
+  
+  .right-div {
+    flex: 1;
+    padding: 20px;
+    margin: 90px;
+    margin-top: 20px;
+  }
+  
+
+  .right-div img {
+    max-width: 90%;
+    height: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+  }
+
+  .left-div1 {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: 100;
+    color: #023020; 
+    margin-bottom: 20px;
+  }
+  
+  .right-div1 {
+    flex: 1;
+    padding: 20px;
+    margin: 90px;
+    margin-top: 20px;
+  }
+  
+
+  .right-div1 img {
+    max-width: 100%;
+    margin-top: 0;
+    height: 400px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+  }
+  .herbals-head-tag{
+    /* color: #1c324a; */
+    color: #8CBC4F;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 3rem;
+    line-height: 1;
+    padding: 9px;
+}
+
+.aversa-herbals-para-tag-four{
+    color: #023020;
+    text-align: center;
+    font-family: Prata,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 1.3rem;
+    padding: 9px;
+}
+
+.info-section {
+    font-weight: bolder;
+    font: 900;
+    color: white;
+    content: "";
+    top: 0;
+    position: relative;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfQXMnL0dou3hss6fjZnbBy3JcPBQpx9drF8G9QLvA3Q&s');
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+    /* backdrop-filter: blur(1px); */
+  }
+
+  .info-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for darkness */
+    border-radius: 10px;
+  }
+
+  .aboutcon{
+    text-align: center;
+  }
+
+  
+.business-opportunity-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+.business-opportunity-page h2 {
+    color: #8CBC4F;
+    font-size: 2rem;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.step h3 {
+    color: #194A33;
+}
+
+.step p {
+    color: #194A33;
+}
+
+/* styles.css */
+.business-opportunity-page2 {
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+.benefits-section {
+    margin-bottom: 40px;
+}
+
+.benefits-section h2 {
+    color: #8CBC4F ;
+}
+
+.benefits-section ul {
+    list-style-type: none;
+    padding-top: 5px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.benefits-section li {
+    margin-bottom: 10px;
+    color: #023020;
+}
+
+.join-section{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.join-section h2 {
+    color: #8CBC4F;
+}
+
+.join-section p {
+    color: #023020;
+    margin-bottom: 20px;
+
+}
+
+.join-now-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.join-now-button:hover {
+    background-color: #45a049;
+}
