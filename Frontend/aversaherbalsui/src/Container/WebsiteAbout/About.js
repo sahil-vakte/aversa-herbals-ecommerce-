@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { Card, Col, Container, Row } from "react-bootstrap";
-
+import Footer from "../../Components/Footer/Footer"
 const About = () => {
   return (
     <div className="about-container">
@@ -44,11 +44,11 @@ const About = () => {
           <li>Continuous innovation and improvement</li>
         </ul>
       </div>
-      </Row>
-      <div className="team-section">
+      </Row >
+      <div className="team-section" style={{display:"block", justifyItems:"center", alignItems:"center"}}>
         <div >
          
-          <h2>Our Team</h2>
+          <h2 style={{fontWeight:"bolder", fontStyle:"italic"}}> Our Team:</h2>
         </div>
         
         <Row>
@@ -84,6 +84,7 @@ const About = () => {
           </Col>
         </Row>
       </div>
+      <Footer/>
     </div>
   );
 };

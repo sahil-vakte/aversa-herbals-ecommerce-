@@ -83,7 +83,7 @@
   }
   
   .card {
-    width: 30%; /* Adjust the width of each card */
+    /* width: 100%; Adjust the width of each card */
     padding: 30px;
     margin: 30px;
     border: 1px solid #ccc;
@@ -121,7 +121,8 @@
     }
   
     .card {
-      width: calc(50% - 20px); /* Adjust card width for smaller screens */
+      width: calc(100% - 0px);
+      margin-left: 10px;
     }
   }
 

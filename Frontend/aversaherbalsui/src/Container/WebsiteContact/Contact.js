@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Contact.css";
 import { RiFontSize } from "react-icons/ri";
 import { Card, Col, Container, Row } from "react-bootstrap";
-
+import Footer from "../../Components/Footer/Footer";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -149,8 +149,7 @@ const Contact = () => {
           </Row>
         </div>
 
-        {/* Footer */}
-      </div>
+        <Footer />      </div>
     </Container>
   );
 };
