@@ -39,6 +39,7 @@ function AppNavbar() {
             <Link className="nav-link" to="/*">
               Home
             </Link>
+<<<<<<< HEAD
             <Link to="/products" className="nav-link">
               Products
             </Link>
@@ -49,6 +50,10 @@ function AppNavbar() {
             <Link to="/business" className="nav-link">
               Business Oppurtunity
             </Link>
+=======
+            <Nav.Link href="/Products">Products</Nav.Link>
+            <Nav.Link href="/wellnessresources">Wellness Resources</Nav.Link>
+>>>>>>> a216226acc71d3954e96b2ce1d7889d979268a01
             <Link to="/about" className="nav-link">
               About Aversa Herbals
             </Link>
@@ -60,7 +65,7 @@ function AppNavbar() {
             <Nav.Link href="#deets">
               <BsCart4 className="nav-bar-icons" />
             </Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2} href="/login">
               <RiUserFill className="nav-bar-icons" />
             </Nav.Link>
           </Nav>
