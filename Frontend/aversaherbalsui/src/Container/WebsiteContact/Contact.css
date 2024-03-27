@@ -83,14 +83,8 @@
   }
   
   .card {
-<<<<<<< HEAD
     /* width: 30%; Adjust the width of each card */
     padding: 0px;
-=======
-    /* width: 100%; Adjust the width of each card */
-    padding: 30px;
-    /* width: 30%; Adjust the width of each card */
->>>>>>> a216226acc71d3954e96b2ce1d7889d979268a01
     margin: 30px;
     border: 1px solid #ccc;
     border-radius: 9px;
