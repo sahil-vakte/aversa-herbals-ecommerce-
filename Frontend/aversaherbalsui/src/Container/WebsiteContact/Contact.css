@@ -1,3 +1,5 @@
+
+
 .form-container {
     /* background-color: #194A33; */
     background-image: url(https://img.freepik.com/free-photo/benefits-ayurvedic-healing-herbs_1340-25630.jpg);
@@ -107,6 +109,7 @@
   } 
 
   .gettouch h1 {
+    padding: 20px;
     font-weight: bolder;
     
     color: white;

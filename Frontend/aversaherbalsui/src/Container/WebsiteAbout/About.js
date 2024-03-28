@@ -10,29 +10,49 @@ const About = () => {
         <div className="about-section">
           <h2 className="aboutcon">About Us</h2>
           <p className="aboutcon">
-            Welcome to Our Ayurvedic Company. We specialize in providing natural
-            and holistic healthcare solutions inspired by ancient Ayurvedic
-            practices Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Reiciendis consequuntur quas delectus! Animi quam magnam accusantium
-            deserunt odio et sint. Quibusdam quae unde, debitis accusantium fuga
-            veritatis consectetur esse quos, commodi veniam, dignissimos iure
-            inventore! Magnam consectetur a modi. Nulla non repellendus unde
-            iure ducimus at porro inventore rerum sed?.
+            Welcome to Aversa Herbals, your trusted source for premium herbal
+            products and empowering business opportunities. Founded with a
+            vision to promote holistic wellness and financial freedom, Aversa
+            Herbals is committed to providing you with the highest quality
+            herbal remedies backed by centuries of traditional wisdom and modern
+            scientific research. .
           </p>
         </div>
 
         <div className="mission-section">
           <h2 className="aboutcon">Our Mission</h2>
           <p className="aboutcon">
-            Our mission is to promote health and wellness through Ayurveda by
-            offering high-quality products and personalized wellness solutions
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-            quaerat accusantium dolorum fuga laudantium explicabo repellat
-            blanditiis. Distinctio odit excepturi modi harum quam soluta
-            quibusdam, nemo sunt perspiciatis molestiae dignissimos incidunt
-            magnam vitae deserunt nulla laboriosam, quia adipisci praesentium
-            perferendis ad eaque pariatur itaque asperiores iste? Libero
-            similique laborum dignissimos!.
+            At Aversa Herbals, our mission is to empower individuals to take
+            control of their health and finances through natural wellness
+            solutions and entrepreneurial endeavors. We strive to: Provide
+            Access to Nature's Bounty: We believe in harnessing the power of
+            nature to create products that nourish the body, mind, and soul.
+            Foster Community and Collaboration: We're dedicated to building a
+            supportive community of individuals who share our passion for
+            natural health and personal growth. Promote Ethical Business
+            Practices: Integrity, transparency, and fairness are at the core of
+            everything we do, ensuring a sustainable and equitable business
+            model for all. Our Commitment to Quality Quality is our top priority
+            at Aversa Herbals. We meticulously select the finest herbs and
+            botanicals from reputable sources to ensure purity, potency, and
+            effectiveness in every product. Our manufacturing processes adhere
+            to strict quality standards and are subject to rigorous testing to
+            guarantee safety and efficacy. Our Multi-Level Marketing (MLM)
+            Program Aversa Herbals offers more than just exceptional products;
+            we also provide a pathway to financial independence through our
+            multi-level marketing (MLM) program. By joining our team of
+            passionate entrepreneurs, you'll have the opportunity to: Earn
+            Income: Build your own business and generate income by sharing our
+            products and business opportunity with others. Enjoy Flexibility:
+            Enjoy the freedom to work on your own terms, whether part-time or
+            full-time, and create a schedule that fits your lifestyle. Receive
+            Support and Training: Access valuable resources, training materials,
+            and ongoing support from our experienced team to help you succeed in
+            your business endeavors. Join Us Today Whether you're seeking
+            natural solutions for your health or looking to embark on a
+            rewarding entrepreneurial journey, Aversa Herbals welcomes you with
+            open arms. Join our community today and experience the
+            transformative power of herbal wellness and financial freedom. .
           </p>
         </div>
         <div className="values-section">
@@ -45,10 +65,11 @@ const About = () => {
           </ul>
         </div>
       </Row>
-      <div className="team-section">
-        <div>
-          <h2>Our Team</h2>
+      <div className="teambolte">
+          <h2 >Our Team</h2>
         </div>
+      <div className="team-section">
+        
 
         <Row>
           <Col sm={4} className="mb-2">
@@ -91,3 +112,6 @@ const About = () => {
 };
 
 export default About;
+
+
+

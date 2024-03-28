@@ -35,7 +35,8 @@ const Contact = () => {
       <div>
         {
           <div className="gettouch">
-            <h1>Get In Touch</h1>
+            <h1>Have questions or need assistance? Our dedicated support team is here to help. Contact us via email or phone for personalized assistance.
+</h1>
           </div>
         }
         <Row>
@@ -74,8 +75,14 @@ const Contact = () => {
               <Card.Body>
                 <h3>Hours</h3>
                 <p>
-                  Mon – Sat: 7.00 am – 8.00 pm <br />
-                  Sunday: 8.00 am – 6.00 pm
+                  Mon : 9.00 am – 7.00 pm <br />
+                  Tue : 9.00 am – 7.00 pm <br />
+                  Wed : 9.00 am – 7.00 pm <br />
+                  Thurs : 9.00 am – 7.00 pm <br />
+                  Fri : 9.00 am – 7.00 pm <br />
+                  Sat : 9.00 am – 7.00 pm <br />
+                  
+                  Sunday: 10.00 am – 12.00 pm
                 </p>
               </Card.Body>
             </Card>

@@ -34,6 +34,9 @@ const WebRoutes = () => {
         <Route path="/about" element=<About /> />
         <Route path="/contact" element=<Contact /> />
         <Route path="/business" element=<Business /> />
+        <Route path="/login" element=< LoginPage/> />
+        <Route path="/register" element=< RegisterPage/> />
+
       </Routes>
     </div>
   );

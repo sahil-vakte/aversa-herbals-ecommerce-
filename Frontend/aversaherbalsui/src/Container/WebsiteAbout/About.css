@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap')
+
 .about-container {
   padding: 100px;
 }
@@ -58,7 +60,10 @@
 }
 
 .team-section {
+
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -66,6 +71,7 @@
   position: relative;
 }
 .team-member {
+  height: 100%;
   background-color: #f8f9fa;
   border: 1px solid #ced4da;
   border-radius: 5px;
@@ -86,6 +92,7 @@
   font-size: 18px;
 }
 .team-member p {
+  
   margin-top: 5px;
   font-size: 14px;
 }
@@ -104,6 +111,12 @@
   font-size: 32px;
             color: #333;
             margin-bottom: 20px;
+}
+
+.teambolte{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {
