@@ -74,7 +74,7 @@ const Contact = () => {
             >
               <Card.Body>
                 <h3>Hours</h3>
-                <p>
+                <p className="scheduletm"> 
                   Mon : 9.00 am – 7.00 pm <br />
                   Tue : 9.00 am – 7.00 pm <br />
                   Wed : 9.00 am – 7.00 pm <br />

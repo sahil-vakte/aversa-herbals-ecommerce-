@@ -116,6 +116,10 @@
     
   }
 
+  .scheduletm{
+    font-size: large;
+  }
+
   @media screen and (max-width: 768px) {
     .form-container {
       padding: 10px; /* Adjust padding for smaller screens */
